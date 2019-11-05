@@ -205,7 +205,8 @@ body > script {display: none !important;}
 				width: 1px;
 				height: 3em;
 				background: #b5b5b5;
-				margin: auto;
+				margin-top: auto;
+				margin-bottom: auto;
 			}
 				.logo-inner {
 					margin: auto;
