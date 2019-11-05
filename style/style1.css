@@ -185,6 +185,7 @@ body > script {display: none !important;}
 /*---------------------------|Header|---------------------------*/
 .header-menu {
 	width: 100%;
+	border-bottom: 1px solid black;
 }
 	.menu-global {
 		padding: 0 5em;
@@ -198,6 +199,13 @@ body > script {display: none !important;}
 				cursor: pointer;
 				display: flex;
 				width: 200px;
+			}
+			.logo-main:after {
+				content: '';
+				width: 1px;
+				height: 3em;
+				background: #b5b5b5;
+				margin: auto;
 			}
 				.logo-inner {
 					margin: auto;
@@ -215,6 +223,7 @@ body > script {display: none !important;}
 				}
 					.mid-menu li {
 						list-style: none;
+						margin: 5px;
 					}
 /*---------------------------|Content|---------------------------*/
 /*---------------------------|Footer|---------------------------*/
