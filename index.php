@@ -15,9 +15,10 @@
 				</div>
 				<div class="menu-main">
 					<ul class="mid-menu">
-						<li><a href="#">MenuUN</a></li>
-						<li><a href="#">MenuDEUX</a></li>
-						<li><a href="#">MenuTROIS</a></li>
+						<li><a href="#">Accueil</a></li>
+						<li><a href="#">Avant</a></li>
+						<li><a href="#">Pendant</a></li>
+						<li><a href="#">Après</a></li>
 					</ul>
 				</div>
 			</div>
