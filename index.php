@@ -1,30 +1,10 @@
 <html>
 <head>
-	<title>Test</title>
-	<link rel="stylesheet" type="text/css" href="style/style1.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>IUT Dijon</title>
+	<?php include 'include/head-1.php'?>
 <body>
 <header>
-	<div class="header-menu">
-		<div class="menu-global">
-			<div class="menu-global-inner">
-				<div class="logo-main">
-					<div class="logo-inner">
-						<span>IUT Dijon</span>
-					</div>
-				</div>
-				<div class="menu-main">
-					<ul class="mid-menu">
-						<li><a href="#">Accueil</a></li>
-						<li><a href="#">Prérequis</a></li>
-						<li><a href="#">Formation</a></li>
-						<li><a href="#">Debouchés</a></li>
-						<li><a href="#">Vie étudiante</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
+	<?php include 'include/header-1.php'?>
 	<div class="image-header">
 		<div>
 			<span id="image-header-title">IUT Dijon</span>
