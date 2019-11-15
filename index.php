@@ -19,7 +19,7 @@
 						<li><a href="#">Prérequis</a></li>
 						<li><a href="#">Formation</a></li>
 						<li><a href="#">Debouchés</a></li>
-                                                <li><a href="#">Vie étudiante</a></li>
+						<li><a href="#">Vie étudiante</a></li>
 					</ul>
 				</div>
 			</div>
