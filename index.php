@@ -16,9 +16,10 @@
 				<div class="menu-main">
 					<ul class="mid-menu">
 						<li><a href="#">Accueil</a></li>
-						<li><a href="#">Avant</a></li>
-						<li><a href="#">Pendant</a></li>
-						<li><a href="#">Après</a></li>
+						<li><a href="#">Prérequis</a></li>
+						<li><a href="#">Formation</a></li>
+						<li><a href="#">Debouchés</a></li>
+                                                <li><a href="#">Vie étudiante</a></li>
 					</ul>
 				</div>
 			</div>
