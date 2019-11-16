@@ -227,17 +227,35 @@ body > script {display: none !important;}
 						margin: 5px;
 					}
 .image-header {
-	height: 20em;
 	background-color: #e8e8e8;
 }
-	.image-header div {
+	.image-header-main {
 		margin: 0 5em;
-		padding: 9em 0;
+		padding: 10em 0;
 		text-align: center;
 	}
 		#image-header-title {
 			font-size: 2em;
 		}
+		.home-header {
+			display: flex;
+			margin: auto;
+			width: 70em;
+		}
+			.home-header-elem {
+				margin: auto;
+			}
+				.home-header-elem-inner {
+					display: block;
+					width: 15em;
+					height: 20em;
+					border: 1px solid black;
+				}
+					.home-header-elem-inner span {
+						display: block;
+						width: 100%;
+					}
+
 /*---------------------------|Content|---------------------------*/
 .content {
 	margin: 2em;

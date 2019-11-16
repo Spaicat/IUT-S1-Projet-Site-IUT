@@ -4,10 +4,31 @@
 	<?php include 'include/head-1.php'?>
 <body>
 <header>
-	<?php include 'include/header-1.php'?>
 	<div class="image-header">
-		<div>
+		<div class="image-header-main">
 			<span id="image-header-title">IUT Dijon</span>
+			<div class="home-header">
+				<div class="home-header-elem">
+					<a class="home-header-elem-inner" href="Prerequis.php">
+						<span>Prérequis</span>
+					</a>
+				</div>
+				<div class="home-header-elem">
+					<a class="home-header-elem-inner" href="Formation.php">
+						<span>Formation</span>
+					</a>
+				</div>
+				<div class="home-header-elem">
+					<a class="home-header-elem-inner" href="Debouches.php">
+						<span>Debouchés</span>
+					</a>
+				</div>
+				<div class="home-header-elem">
+					<a class="home-header-elem-inner" href="Vie-etudiante.php">
+						<span>Vie étudiante</span>
+					</a>
+				</div>
+			</div>
 		</div>
 	</div>
 </header>

@@ -12,7 +12,7 @@
 						<li><a href="Prerequis.php">Prérequis</a></li>
 						<li><a href="Formation.php">Formation</a></li>
 						<li><a href="Debouches.php">Debouchés</a></li>
-						<li><a href="Vie-etudiante.php#">Vie étudiante</a></li>
+						<li><a href="Vie-etudiante.php">Vie étudiante</a></li>
 					</ul>
 				</div>
 			</div>
