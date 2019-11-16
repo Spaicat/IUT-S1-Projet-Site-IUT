@@ -230,12 +230,15 @@ body > script {display: none !important;}
 	background-color: #e8e8e8;
 }
 	.image-header-main {
+		display: flex;
+		flex-direction: column;
 		margin: 0 5em;
 		padding: 10em 0;
 		text-align: center;
 	}
 		#image-header-title {
 			font-size: 2em;
+			margin: 2em 0;
 		}
 		.home-header {
 			display: flex;
