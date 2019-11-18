@@ -232,11 +232,11 @@ body > script {display: none !important;}
 	.image-header-main {
 		display: flex;
 		flex-direction: column;
-		margin: 0 5em;
 		padding: 10em 0;
 		text-align: center;
 	}
 		#image-header-title {
+			position: relative;
 			font-size: 2em;
 			margin: 2em 0;
 		}
@@ -255,6 +255,12 @@ body > script {display: none !important;}
 					height: 20em;
 					border: 1px solid black;
 					text-decoration: none;
+					transition: .25s;
+				}
+				.home-header-elem-inner:hover {
+					width: 17em;
+					height: 22em;
+					transition: .25s;
 				}
 					.home-header-elem-inner span {
 						display: block;
