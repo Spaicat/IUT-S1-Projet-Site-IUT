@@ -15,7 +15,7 @@
 				</div>
 				<div class="home-header-elem">
 					<a class="home-header-elem-inner" href="Formation.php">
-						<span>Formation</span>
+						<span>Formations</span>
 					</a>
 				</div>
 				<div class="home-header-elem">
