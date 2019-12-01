@@ -232,11 +232,11 @@ body > script {display: none !important;}
 	.image-header-main {
 		display: flex;
 		flex-direction: column;
-		margin: 0 5em;
 		padding: 10em 0;
 		text-align: center;
 	}
 		#image-header-title {
+			position: relative;
 			font-size: 2em;
 			margin: 0 0 2em;
 		}
@@ -247,17 +247,27 @@ body > script {display: none !important;}
 		}
 			.home-header-elem {
 				margin: auto;
+				background-color: white;
 			}
 				.home-header-elem-inner {
 					display: flex;
 					width: 15em;
 					height: 20em;
 					border: 1px solid black;
+					text-decoration: none;
+					transition: .25s;
+				}
+				.home-header-elem-inner:hover {
+					width: 17em;
+					height: 22em;
+					transition: .25s;
 				}
 					.home-header-elem-inner span {
 						display: block;
 						margin-top: auto;
 						width: 100%;
+						font-size: 1.2em;
+						color: black;
 					}
 
 /*---------------------------|Content|---------------------------*/
