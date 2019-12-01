@@ -6,7 +6,7 @@
 <header>
 	<div class="image-header">
 		<div class="image-header-main">
-			<span id="image-header-title">IUT Dijon</span>
+			<span id="image-header-title">IUT Informatique</span>
 			<div class="home-header">
 				<div class="home-header-elem">
 					<a class="home-header-elem-inner" href="Prerequis.php">

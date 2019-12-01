@@ -2,9 +2,9 @@ html {
 	font-size: 62.5%;
 }
 body {
-	background-color: white;
-	color: #000;
-	font-family: "Century Gothic", helvetica, arial, sans-serif;
+	background-color: #1f1f1f;
+	color: #ececec;
+	font-family: Century Gothic, helvetica, arial, sans-serif;
 	font-size: 1.4em; /* equiv 14px */
 	line-height: 1.5; /* adapt to your design */
 }
@@ -181,6 +181,12 @@ body > script {display: none !important;}
 	position: static;
 }
 
+/*---------------------------|Fonts|---------------------------*/
+
+@font-face {
+	font-family: PRIMETIME;
+	src: url("../fonts/PRIMETIME.ttf");
+}
 
 /*---------------------------|Header|---------------------------*/
 .header-menu {
@@ -227,7 +233,7 @@ body > script {display: none !important;}
 						margin: 5px;
 					}
 .image-header {
-	background-color: #e8e8e8;
+	background-color: #2d2d2d;
 }
 	.image-header-main {
 		display: flex;
@@ -237,8 +243,9 @@ body > script {display: none !important;}
 	}
 		#image-header-title {
 			position: relative;
-			font-size: 2em;
-			margin: 0 0 2em;
+			font-family: PRIMETIME, Arial Black, sans-serif;
+			font-size: 7em;
+			margin: 0 0 0.5em;
 		}
 		.home-header {
 			display: flex;
@@ -247,7 +254,7 @@ body > script {display: none !important;}
 		}
 			.home-header-elem {
 				margin: auto;
-				background-color: white;
+				background-color: #2b2b2b;
 			}
 				.home-header-elem-inner {
 					display: flex;
@@ -267,7 +274,7 @@ body > script {display: none !important;}
 						margin-top: auto;
 						width: 100%;
 						font-size: 1.2em;
-						color: black;
+						color: #ececec;
 					}
 
 /*---------------------------|Content|---------------------------*/
