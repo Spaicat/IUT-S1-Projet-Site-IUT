@@ -3,4 +3,4 @@
 ## Idée à développer
 
 ### Liens
- - Polices d'écritures avec des designs : `https://digitalsynopsis.com/design/best-creative-free-download-fonts-designers/`
+ - <a href="https://digitalsynopsis.com/design/best-creative-free-download-fonts-designers/" target="_blank">Polices d'écritures avec des designs</a>
