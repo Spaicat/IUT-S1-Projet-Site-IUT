@@ -251,6 +251,7 @@ body > script {display: none !important;}
 	.image-header-main {
 		display: flex;
 		flex-direction: column;
+		height: 40em;
 		padding: 10em 0;
 		text-align: center;
 	}
