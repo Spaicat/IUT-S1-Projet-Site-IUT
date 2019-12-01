@@ -188,6 +188,19 @@ body > script {display: none !important;}
 	src: url("../fonts/PRIMETIME.ttf");
 }
 
+@font-face {
+	font-family: MoskBlack;
+	src: url("../fonts/MoskBlack.ttf");
+}
+@font-face {
+	font-family: MoskNormal;
+	src: url("../fonts/MoskNormal.ttf");
+}
+@font-face {
+	font-family: MoskThin;
+	src: url("../fonts/MoskThin.ttf");
+}
+
 /*---------------------------|Header|---------------------------*/
 .header-menu {
 	width: 100%;
@@ -233,7 +246,7 @@ body > script {display: none !important;}
 						margin: 5px;
 					}
 .image-header {
-	background-color: #2d2d2d;
+	background-color: #303133;
 }
 	.image-header-main {
 		display: flex;
@@ -243,9 +256,11 @@ body > script {display: none !important;}
 	}
 		#image-header-title {
 			position: relative;
-			font-family: PRIMETIME, Arial Black, sans-serif;
+			font-family: MoskBlack, Arial Black, sans-serif;
 			font-size: 7em;
 			margin: 0 0 0.5em;
+			background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#b40404));
+			-webkit-background-clip: text;
 		}
 		.home-header {
 			display: flex;
@@ -254,13 +269,12 @@ body > script {display: none !important;}
 		}
 			.home-header-elem {
 				margin: auto;
-				background-color: #2b2b2b;
+				background-color: #2b2c2d;
 			}
 				.home-header-elem-inner {
 					display: flex;
 					width: 15em;
 					height: 20em;
-					border: 1px solid black;
 					text-decoration: none;
 					transition: .25s;
 				}
