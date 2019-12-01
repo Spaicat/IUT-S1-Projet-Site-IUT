@@ -1,4 +1,4 @@
-# Projet-Site-IUT
+# Projet du site de l'IUT
 
 > Ici se trouve toutes les infos à se partager pour le projet du site internet
 
