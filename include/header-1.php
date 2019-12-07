@@ -3,7 +3,7 @@
 			<div class="menu-global-inner">
 				<div class="logo-main">
 					<div class="logo-inner">
-						<span>IUT Dijon</span>
+						<span id="global-logo-title">IUT <span>Dijon</span></span>
 					</div>
 				</div>
 				<div class="menu-main">
