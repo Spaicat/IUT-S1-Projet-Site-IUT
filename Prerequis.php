@@ -5,6 +5,13 @@
 <body>
 <header>
 	<?php include 'include/header-1.php'?>
+	<div class="second-title">
+		<div class="second-title-inner">
+			<h2>
+				Prérequis
+			</h2>
+		</div>
+	</div>
 </header>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>

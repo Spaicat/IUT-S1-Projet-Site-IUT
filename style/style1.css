@@ -257,10 +257,15 @@ body > script {display: none !important;}
 						list-style: none;
 					}
 						.mid-menu a {
-							margin: auto;
+							display: flex;
+							height: 100%;
+							width: 100%;
 							color: white;
 							text-decoration: none;
 						}
+							.mid-menu span {
+								margin: auto;
+							}
 .image-header {
 	background-color: #303133;
 	text-align: center;
@@ -312,4 +317,20 @@ body > script {display: none !important;}
 .content {
 	margin: 2em;
 }
+
+/*---Page-Content---*/
+.second-title {
+	display: flex;
+	width: 100%;
+	height: 20em;
+	background-color: #303133;
+}
+	.second-title-inner {
+		margin: auto;
+	}
+		.second-title-inner h2 {
+			font-size: 4em;
+			font-family: MoskBlack, Arial Black, sans-serif;
+		}
+
 /*---------------------------|Footer|---------------------------*/

@@ -8,11 +8,30 @@
 				</div>
 				<div class="menu-main">
 					<ul class="mid-menu">
-						<li><a href="index.php">Accueil</a></li>
-						<li><a href="Prerequis.php">Prérequis</a></li>
-						<li><a href="Formation.php">Formation</a></li>
-						<li><a href="Debouches.php">Debouchés</a></li>
-						<li><a href="Vie-etudiante.php">Vie étudiante</a></li>
+						<li>
+							<a href="index.php">
+								<span>Accueil</span>
+							</a></li>
+						<li>
+							<a href="Prerequis.php">
+								<span>Prérequis</span>
+							</a>
+						</li>
+						<li>
+							<a href="Formation.php">
+								<span>Formation</span>
+							</a>
+						</li>
+						<li>
+							<a href="Debouches.php">
+								<span>Debouchés</span>
+							</a>
+						</li>
+						<li>
+							<a href="Vie-etudiante.php">
+								<span>Vie étudiante</span>
+							</a>
+						</li>
 					</ul>
 				</div>
 			</div>
