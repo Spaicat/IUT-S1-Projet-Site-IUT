@@ -181,6 +181,16 @@ body > script {display: none !important;}
 	position: static;
 }
 
+/*---------------------------|GeneralCSS|---------------------------*/
+
+p {
+	font-size: 1.2em;
+}
+h3 {
+	font-size: 2em;
+	font-family: MoskBlack, Arial Black, sans-serif;
+}
+
 /*---------------------------|Fonts|---------------------------*/
 
 @font-face {
@@ -332,5 +342,22 @@ body > script {display: none !important;}
 			font-size: 4em;
 			font-family: MoskBlack, Arial Black, sans-serif;
 		}
+
+.main-content {
+	margin: 0 10em;
+}
+	.second-content {
+		padding: 3em 0;
+	}
+		.content-part {
+		}
+			.content-part table {
+				width: 100%;
+			}
+			.content-part table, .content-part td, .content-part th {
+				border: 1px solid white;
+				border-collapse: collapse;
+			}
+			
 
 /*---------------------------|Footer|---------------------------*/
