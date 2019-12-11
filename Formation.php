@@ -180,6 +180,17 @@
 		<div class="content-part">
 			<h3>Commentaires d'étudiants</h3>
 			<p>Qui parles le mieux du DUT que les étudiants eux mêmes : </p>
+			<blockquote class="citation-main">
+				<div class="citation-inner">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra condimentum sollicitudin. Curabitur id nunc pretium, varius nisi vitae, accumsan neque. Aliquam eget leo eget nisl lobortis elementum id id odio. Mauris euismod posuere mi, at congue nisl auctor at. Nulla suscipit porta blandit. Mauris faucibus est vitae est aliquam luctus.</p>
+				</div>
+				<div class="citation-author">
+					<svg width="30" height="25" viewBox="0 0 10 11" class="citation-svg">
+						<path d="M 0, 0   L 10, 10   v -10"/>
+					</svg>
+					<footer class="citation-name">Dolorem Quisquam</footer>
+				</div>
+			</blockquote>
 		</div>
 	</div>
 </main>

@@ -288,7 +288,7 @@ h3 {
 				position: relative;
 				font-family: MoskBlack, Arial Black, sans-serif;
 				font-size: 12em;
-				margin: 0 0 0.5em;
+				margin: 0.5em 0 0.5em;
 				background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#b40404));
 				-webkit-background-clip: text;
 			}
@@ -358,6 +358,29 @@ h3 {
 				border: 1px solid white;
 				border-collapse: collapse;
 			}
-			
+
+.citation-main {
+	margin: 1.5em;
+}
+	.citation-inner {
+		border: 1px solid #da4343;
+		padding: 2em;
+	}
+	.citation-author {
+		display: flex;
+		flex-direction: column;
+		float: right;
+	}
+		.citation-svg {
+			fill: none;
+			stroke: #da4343;
+			stroke-width: 1px;
+			float: right;
+		}
+		.citation-name {
+			font-size: 1.1em;
+			float: right;
+			margin-left: 2em;
+		}
 
 /*---------------------------|Footer|---------------------------*/
