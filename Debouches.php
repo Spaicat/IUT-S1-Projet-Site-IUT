@@ -15,7 +15,7 @@
 <main class="main-content">
 	<div class="second-content">
 		<div class="content-part">
-			<h3>Poursuite d'études</h3>
+			<h2>Poursuite d'études</h2>
 			<p>
 				Le DUT, étant un BAC+2, permet d'acceder à de nombreuses formations :
 				<ul style="font-size:1.1em">
@@ -27,7 +27,7 @@
 			</p>
 		</div>
 		<div class="content-part">
-			<h3>Les métiers après le DUT</h3>
+			<h2>Les métiers après le DUT</h2>
 			<p>
 				Les DUT Informatique sont recherchés par de nombreuses entreprises
 				En effet, ils peuvent convrir un grands nombres de travaux :

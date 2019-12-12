@@ -186,8 +186,15 @@ body > script {display: none !important;}
 p {
 	font-size: 1.2em;
 }
-h3 {
+h2 {
+	color: #da4343;
 	font-size: 2em;
+	font-family: MoskBlack, Arial Black, sans-serif;
+	border-left: 1px solid;
+	padding-left: 15px;
+}
+h3 {
+	font-size: 1.5em;
 	font-family: MoskBlack, Arial Black, sans-serif;
 }
 
@@ -339,6 +346,8 @@ h3 {
 		margin: auto;
 	}
 		.second-title-inner h2 {
+			border: none;
+			color: white;
 			font-size: 4em;
 			font-family: MoskBlack, Arial Black, sans-serif;
 		}

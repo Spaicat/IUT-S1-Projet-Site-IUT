@@ -15,8 +15,8 @@
 <main class="main-content">
 	<div class="second-content">
 		<div class="content-part">
-			<h3>Répartition des enseignements</h3>
-			<h4>Semestre 1</h4>
+			<h2>Répartition des enseignements</h2>
+			<h3>Semestre 1</h3>
 			<table>
 				<tr>
 					<th>Catégorie</th>
@@ -88,7 +88,7 @@
 				</tr>
 			</table>
 
-			<h4>Semestre 2</h4>
+			<h3>Semestre 2</h3>
 			<table>
 				<tr>
 					<th>Catégorie</th>
@@ -171,14 +171,14 @@
 			</table>
 		</div>
 		<div class="content-part">
-			<h3>Projets</h3>
+			<h2>Projets</h2>
 			<p>
 				Au cours des deux ans du DUT Informatique différents projets en groupe doivent être réalisés.
 				Ils permettent de développer ses compétences en informatiques ainsi que d'autres compétences comme la gestion de projets et le travail en groupe.
 			</p>
 		</div>
 		<div class="content-part">
-			<h3>Commentaires d'étudiants</h3>
+			<h2>Commentaires d'étudiants</h2>
 			<p>Qui parles le mieux du DUT que les étudiants eux mêmes : </p>
 			<blockquote class="citation-main">
 				<div class="citation-inner">
