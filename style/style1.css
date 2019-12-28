@@ -291,32 +291,40 @@ h3 {
 		display: flex;
 		flex-direction: column;
 	}
-			#image-header-title {
+		#box-header-title {
+			margin: 2.5em 0 3.5em;
+		}
+			#image-header-title {				
 				position: relative;
-				font-family: MoskBlack, Arial Black, sans-serif;
-				font-size: 12em;
-				margin: 0.5em 0 0.5em;
-				background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#b40404));
-				-webkit-background-clip: text;
+				width: 75em;
+				animation: bounce 2s infinite;
+				image-rendering: pixelated;
+				z-index: 1;
 			}
-			.home-header {
-				display: flex;
-				flex-direction: column;
-				margin: auto;
-				width: 100%;
-				max-width: 100em;
-				margin-bottom: 10em;
+			@keyframes bounce{
+				from {top: 20px;}
+				50%  {top: 10px;}
+				to   {top: 20px;}
 			}
-				.home-header-elem {
-					margin: 0.5em 1em;
-					background-color: #2b2c2d;
+
+		.home-header {
+			display: flex;
+			flex-direction: column;
+			margin: auto;
+			width: 100%;
+			max-width: 100em;
+			margin-bottom: 10em;
+		}
+			.home-header-elem {
+				margin: 0.5em 1em;
+				background-color: #2b2c2d;
+			}
+				.home-header-elem-inner {
+					display: flex;
+					height: 10em;
+					text-decoration: none;
+					transition: .25s;
 				}
-					.home-header-elem-inner {
-						display: flex;
-						height: 10em;
-						text-decoration: none;
-						transition: .25s;
-					}
 					.home-header-elem-inner:hover {
 						height: 22em;
 						transition: .25s;

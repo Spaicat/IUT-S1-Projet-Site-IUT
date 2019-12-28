@@ -6,7 +6,9 @@
 <header>
 	<div class="image-header">
 		<div class="image-header-main">
-			<h1 id="image-header-title">IUT<span style="font-size: 0.5em; color: #da4343;"> Informatique</span></h1>
+			<div id="box-header-title">
+				<img src="images/IUTinfo_title.png" id="image-header-title" />
+			</div>
 			<div class="home-header">
 				<div class="home-header-elem">
 					<a class="home-header-elem-inner" href="Prerequis.php">
