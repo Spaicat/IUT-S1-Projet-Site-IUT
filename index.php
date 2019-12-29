@@ -14,21 +14,45 @@
 					<a class="home-header-elem-inner" href="Prerequis.php">
 						<span>Prérequis</span>
 					</a>
+					<div class="arrow-button arrow-left">
+						<img src="images/main_button_arrow" />
+					</div>
+					<div class="arrow-button arrow-right">
+						<img src="images/main_button_arrow" />
+					</div>
 				</div>
 				<div class="home-header-elem">
 					<a class="home-header-elem-inner" href="Formation.php">
 						<span>Formations</span>
 					</a>
+					<div class="arrow-button arrow-left">
+						<img src="images/main_button_arrow" />
+					</div>
+					<div class="arrow-button arrow-right">
+						<img src="images/main_button_arrow" />
+					</div>
 				</div>
 				<div class="home-header-elem">
 					<a class="home-header-elem-inner" href="Debouches.php">
 						<span>Debouchés</span>
 					</a>
+					<div class="arrow-button arrow-left">
+						<img src="images/main_button_arrow" />
+					</div>
+					<div class="arrow-button arrow-right">
+						<img src="images/main_button_arrow" />
+					</div>
 				</div>
 				<div class="home-header-elem">
 					<a class="home-header-elem-inner" href="Vie-etudiante.php">
 						<span>Vie étudiante</span>
 					</a>
+					<div class="arrow-button arrow-left">
+						<img src="images/main_button_arrow" />
+					</div>
+					<div class="arrow-button arrow-right">
+						<img src="images/main_button_arrow" />
+					</div>
 				</div>
 			</div>
 		</div>

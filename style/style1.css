@@ -218,6 +218,11 @@ h3 {
 	src: url("../fonts/MoskThin.ttf");
 }
 
+@font-face {
+	font-family: Pixel;
+	src: url("../fonts/Pixel.ttf");
+}
+
 /*---------------------------|Header|---------------------------*/
 .header-menu {
 	width: 100%;
@@ -316,27 +321,50 @@ h3 {
 			margin-bottom: 10em;
 		}
 			.home-header-elem {
-				margin: 0.5em 1em;
-				background-color: #2b2c2d;
+				position: relative;
+				margin: 1.5em 1em;
 			}
-				.home-header-elem-inner {
-					display: flex;
+			.arrow-left {
+				top: 0;
+				left: 6em;
+			}
+			.arrow-right {
+				top: 0;
+				right: 6em;
+				-webkit-transform: scaleX(-1);
+				transform: scaleX(-1);
+			}
+			.arrow-button {
+				display: none;
+				position: absolute;
+				height: 100%;
+			}
+				.arrow-button img {
 					height: 10em;
-					text-decoration: none;
+					margin: auto;
+					image-rendering: pixelated;
+				}
+			.home-header-elem-inner {
+				display: flex;
+				height: 7.5em;
+				margin: 1.5em 1em;
+				border: solid white;
+				border-width: 0.2em 0;
+				text-decoration: none;
+				transition: .25s;
+			}
+				.home-header-elem-inner:hover + .arrow-button, .home-header-elem-inner:hover ~ .arrow-button {
+					display: flex;
 					transition: .25s;
 				}
-					.home-header-elem-inner:hover {
-						height: 22em;
-						transition: .25s;
-					}
-						.home-header-elem-inner span {
-							display: block;
-							margin: auto;
-							width: 100%;
-							font-size: 3em;
-							font-family: MoskBlack, Arial Black, sans-serif;
-							color: #ececec;
-						}
+				.home-header-elem-inner span {
+					display: block;
+					margin: auto;
+					width: 100%;
+					font-size: 4em;
+					font-family: Pixel, MoskBlack, sans-serif;
+					color: #ececec;
+				}
 
 /*---------------------------|Content|---------------------------*/
 .content {
