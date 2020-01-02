@@ -185,17 +185,24 @@ body > script {display: none !important;}
 
 p {
 	font-size: 1.2em;
+	font-family: Pixel, MoskBlack, sans-serif;
+}
+li {
+	font-family: Pixel, MoskBlack, sans-serif;
 }
 h2 {
 	color: #da4343;
 	font-size: 2em;
-	font-family: MoskBlack, Arial Black, sans-serif;
+	font-family: Pixel, MoskBlack, sans-serif;
 	border-left: 1px solid;
 	padding-left: 15px;
 }
 h3 {
 	font-size: 1.5em;
-	font-family: MoskBlack, Arial Black, sans-serif;
+	font-family: Pixel, MoskBlack, sans-serif;
+}
+.noHover{
+    pointer-events: none;
 }
 
 /*---------------------------|Fonts|---------------------------*/
@@ -255,7 +262,7 @@ h3 {
 				}
 					#global-logo-title {
 						font-size: 2em;
-						font-family: MoskBlack, Arial Black, sans-serif;
+						font-family: Pixel, MoskBlack, sans-serif;
 					}
 						#global-logo-title span {
 							color: #da4343;
@@ -269,7 +276,7 @@ h3 {
 					height: 100%;
 					padding: 0;
 					font-size: 1.7em;
-					font-family: MoskBlack, Arial Black, sans-serif;
+					font-family: Pixel, MoskBlack, sans-serif;
 				}
 					.mid-menu li {
 						display: flex;
@@ -297,7 +304,7 @@ h3 {
 		flex-direction: column;
 	}
 		#box-header-title {
-			margin: 2.5em 0 3.5em;
+			margin: 1.5em 0 3.5em;
 		}
 			#image-header-title {				
 				position: relative;
@@ -322,49 +329,105 @@ h3 {
 		}
 			.home-header-elem {
 				position: relative;
-				margin: 1.5em 1em;
+				margin: 3.5em 1em;
 			}
-			.arrow-left {
-				top: 0;
-				left: 6em;
-			}
-			.arrow-right {
-				top: 0;
-				right: 6em;
-				-webkit-transform: scaleX(-1);
-				transform: scaleX(-1);
-			}
-			.arrow-button {
-				display: none;
-				position: absolute;
-				height: 100%;
-			}
-				.arrow-button img {
-					height: 10em;
-					margin: auto;
-					image-rendering: pixelated;
+				.arrow-left {
+					top: 0;
+					left: 6em;
 				}
-			.home-header-elem-inner {
-				display: flex;
-				height: 7.5em;
-				margin: 1.5em 1em;
-				border: solid white;
-				border-width: 0.2em 0;
-				text-decoration: none;
-				transition: .25s;
-			}
-				.home-header-elem-inner:hover + .arrow-button, .home-header-elem-inner:hover ~ .arrow-button {
+				.arrow-right {
+					top: 0;
+					right: 6em;
+					-webkit-transform: scaleX(-1);
+					transform: scaleX(-1);
+				}
+				.arrow-button {
+					display: none;
+					position: absolute;
+					height: 100%;
+					width: 6em;
+				}
+					.arrow-button div {
+						position: relative;
+						height: 100%;
+						width: 100%;
+					}
+						.arrow-button img {
+							position: absolute; /*Ajuste au centre*/
+							left: 50%;
+							top: 50%;
+							-webkit-transform: translate(-50%, -50%);
+							-moz-transform: translate(-50%, -50%);
+							-ms-transform: translate(-50%, -50%);
+							transform: translate(-50%, -50%); /*Fin centrage*/
+							height: 10em;
+							margin: auto;
+							image-rendering: pixelated;
+						}
+				.home-header-elem-inner {
 					display: flex;
+					height: 2.5em;
+					margin: 1.5em 1em;
+					text-decoration: none;
 					transition: .25s;
 				}
-				.home-header-elem-inner span {
-					display: block;
-					margin: auto;
-					width: 100%;
-					font-size: 4em;
-					font-family: Pixel, MoskBlack, sans-serif;
-					color: #ececec;
-				}
+					.home-header-elem-inner:hover + .arrow-button, .home-header-elem-inner:hover ~ .arrow-button {
+						display: flex;
+						transition: .25s;
+					}
+					.home-header-elem-inner:hover + .arrow-left {
+						animation: bounceLeft 1.5s infinite;
+					}
+					.home-header-elem-inner:hover ~ .arrow-right {
+						animation: bounceRight 1.5s infinite;
+					}
+					@keyframes bounceLeft{
+						from {left: 10em;}
+						50%  {left: 8em;}
+						to   {left: 10em;}
+					}
+					@keyframes bounceRight{
+						from {right: 10em;}
+						50%  {right: 8em;}
+						to   {right: 10em;}
+					}
+					.pixel-contain {
+						position: relative;
+						width: 100%;
+						box-shadow: 
+							32px 0 #303133,
+							-32px 0 #303133,
+							0 -32px #303133,
+							0 32px #303133,
+							8px 0 0 16px #303133,
+							-8px 0 0 16px #303133,
+							0 -8px 0 16px #303133,
+							0 8px 0 16px #303133,
+							40px 0 white, /*Droite*/
+							-40px 0 white, /*Gauche*/
+							0 -40px white, /*Haut*/
+							0 40px white, /*Bas*/
+							0 0 0 24px white, /*Coins*/
+							0 16px 0 16px white, /*Coins Droite*/
+							0 -16px 0 16px white,
+							16px 0 0 16px white, /*Coins Gauche*/
+							-16px 0 0 16px white
+					}
+						.pixel-contain span {
+							display: block;
+							margin: auto;
+							width: 100%;
+							font-size: 4em;
+							font-family: Pixel, MoskBlack, sans-serif;
+							color: #ececec;
+							position: absolute; /*Ajuste au centre*/
+							left: 50%;
+							top: 50%;
+							-webkit-transform: translate(-50%, -50%);
+							-moz-transform: translate(-50%, -50%);
+							-ms-transform: translate(-50%, -50%);
+							transform: translate(-50%, -50%); /*Fin centrage*/
+						}
 
 /*---------------------------|Content|---------------------------*/
 .content {
@@ -385,7 +448,7 @@ h3 {
 			border: none;
 			color: white;
 			font-size: 4em;
-			font-family: MoskBlack, Arial Black, sans-serif;
+			font-family: Pixel, MoskBlack, sans-serif;
 		}
 
 .main-content {

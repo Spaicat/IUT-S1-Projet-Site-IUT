@@ -7,50 +7,62 @@
 	<div class="image-header">
 		<div class="image-header-main">
 			<div id="box-header-title">
-				<img src="images/IUTinfo_title.png" id="image-header-title" />
+				<img src="images/Titre_IUT_Info_GIF.gif" id="image-header-title" />
 			</div>
 			<div class="home-header">
 				<div class="home-header-elem">
 					<a class="home-header-elem-inner" href="Prerequis.php">
-						<span>Prérequis</span>
+						<div class="pixel-contain">
+							<span>Prérequis</span>
+						</div>
 					</a>
-					<div class="arrow-button arrow-left">
-						<img src="images/main_button_arrow" />
+					<div class="arrow-button arrow-left noHover">
+						<div>
+							<img src="images/main_button_arrow" />
+						</div>
 					</div>
-					<div class="arrow-button arrow-right">
-						<img src="images/main_button_arrow" />
+					<div class="arrow-button arrow-right noHover">
+						<div>
+							<img src="images/main_button_arrow" />
+						</div>
 					</div>
 				</div>
 				<div class="home-header-elem">
 					<a class="home-header-elem-inner" href="Formation.php">
-						<span>Formations</span>
+						<div class="pixel-contain">
+							<span>Formations</span>
+						</div>
 					</a>
-					<div class="arrow-button arrow-left">
+					<div class="arrow-button arrow-left noHover">
 						<img src="images/main_button_arrow" />
 					</div>
-					<div class="arrow-button arrow-right">
+					<div class="arrow-button arrow-right noHover">
 						<img src="images/main_button_arrow" />
 					</div>
 				</div>
 				<div class="home-header-elem">
 					<a class="home-header-elem-inner" href="Debouches.php">
-						<span>Debouchés</span>
+						<div class="pixel-contain">
+							<span>Debouchés</span>
+						</div>
 					</a>
-					<div class="arrow-button arrow-left">
+					<div class="arrow-button arrow-left noHover">
 						<img src="images/main_button_arrow" />
 					</div>
-					<div class="arrow-button arrow-right">
+					<div class="arrow-button arrow-right noHover">
 						<img src="images/main_button_arrow" />
 					</div>
 				</div>
 				<div class="home-header-elem">
 					<a class="home-header-elem-inner" href="Vie-etudiante.php">
-						<span>Vie étudiante</span>
+						<div class="pixel-contain">
+							<span>Vie étudiante</span>
+						</div>
 					</a>
-					<div class="arrow-button arrow-left">
+					<div class="arrow-button arrow-left noHover">
 						<img src="images/main_button_arrow" />
 					</div>
-					<div class="arrow-button arrow-right">
+					<div class="arrow-button arrow-right noHover">
 						<img src="images/main_button_arrow" />
 					</div>
 				</div>
