@@ -2,16 +2,17 @@
 		<div class="menu-global">
 			<div class="menu-global-inner">
 				<div class="logo-main">
-					<div class="logo-inner">
+					<a href="index.php">
 						<span id="global-logo-title">IUT <span>Dijon</span></span>
-					</div>
+					</a>
 				</div>
 				<div class="menu-main">
 					<ul class="mid-menu">
 						<li>
 							<a href="index.php">
 								<span>Accueil</span>
-							</a></li>
+							</a>
+						</li>
 						<li>
 							<a href="Prerequis.php">
 								<span>Prérequis</span>

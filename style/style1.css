@@ -2,7 +2,7 @@ html {
 	font-size: 62.5%;
 }
 body {
-	background-color: #1f1f1f;
+	background-color: #202122;
 	color: #ececec;
 	font-family: Century Gothic, helvetica, arial, sans-serif;
 	font-size: 1.4em; /* equiv 14px */
@@ -232,33 +232,37 @@ h3 {
 
 /*---------------------------|Header|---------------------------*/
 .header-menu {
+	position: fixed;
+	top: 0;
 	width: 100%;
-	border-bottom: 1px solid black;
-	background-color: #303133;
 }
 	.menu-global {
-		padding: 0 5em;
 	}
 		.menu-global-inner {
 			display: flex;
-			height: 7em;
 		}
 			.logo-main {
 				position: relative;
-				cursor: pointer;
 				display: flex;
+				background-color: #202122;
 				width: 200px;
+				height: 6em;
+				padding-top: 20px;
+				box-shadow: 
+					0px 20px 0px 0px #202122, /*Bas*/
+					20px 0px 0px 0px #202122, /*Droit*/
+					10px 15px 0px 0px #202122, /*Bas 2*/
+					15px 10px 0px 0px #202122, /*Droit 2*/
+					0px 25px 0px 0px white, /*Bas*/
+					25px 0px 0px 0px white, /*Droit*/
+					10px 20px 0px 0px white, /*Bas 2*/
+					20px 10px 0px 0px white, /*Droit 2*/
+					15px 15px 0px 0px white /*Coin*/
 			}
-			.logo-main:after {
-				content: '';
-				width: 1px;
-				height: 3em;
-				background: #b5b5b5;
-				margin-top: auto;
-				margin-bottom: auto;
-			}
-				.logo-inner {
+				.logo-main a {
 					margin: auto;
+					color: white;
+					text-decoration: none;
 				}
 					#global-logo-title {
 						font-size: 2em;
@@ -268,7 +272,19 @@ h3 {
 							color: #da4343;
 						}
 			.menu-main {
-				margin: auto;
+				background-color: #202122;
+				height: 3em;
+				padding-top: 20px;
+				box-shadow: 
+					0px 20px 0px 0px #202122, /*Bas*/
+					20px 0px 0px 0px #202122, /*Droit*/
+					10px 15px 0px 0px #202122, /*Bas 2*/
+					15px 10px 0px 0px #202122, /*Droit 2*/
+					0px 25px 0px 0px white, /*Bas*/
+					25px 0px 0px 0px white, /*Droit*/
+					10px 20px 0px 0px white, /*Bas 2*/
+					20px 10px 0px 0px white, /*Droit 2*/
+					15px 15px 0px 0px white /*Coin*/
 			}
 				.mid-menu {
 					display: flex;
@@ -329,7 +345,7 @@ h3 {
 		}
 			.home-header-elem {
 				position: relative;
-				margin: 3.5em 1em;
+				margin: 3.5em 2em;
 			}
 				.arrow-left {
 					top: 0;
@@ -437,15 +453,55 @@ h3 {
 /*---Page-Content---*/
 .second-title {
 	display: flex;
+	flex-direction: column;
 	width: 100%;
 	height: 20em;
+	margin-top: 7em;
 	background-color: #303133;
 }
+	.top-pixel {
+	}
+	.bottom-pixel {
+	}
+		.pixel {
+			width: 20px;
+			height: 20px;
+			float: left;
+			transition: background 2s ease-out;
+			margin: 0;
+			font-size: 9px;
+			color: black;
+		}
+		.pix-color1 {
+			background-color: red;
+		}
+		.pix-color2 {
+			background-color: lime;
+		}
+		.pix-color3 {
+			background-color: blue;
+		}
 	.second-title-inner {
+		display: flex;
 		margin: auto;
+		width: 100%;
+		border: solid transparent;
+		border-width: 2em 0;
+		background: #9c7440 url(../images/box_background.png);
+		-webkit-border-image: url(../images/box.png) 120px round;
+		-o-border-image: url(../images/box.png) 120px round;
+		border-image: url(../images/box.png) 30 round;
+		/*box-shadow: 
+			0px 0px 0px 25px #303133, 
+			0px 0px 0px 30px #202122, 
+			0px 0px 0px 40px #303133, 
+			0px 0px 0px 50px #202122, 
+			0px 0px 0px 60px #303133, 
+			0px 0px 0px 80px #202122;*/
 	}
 		.second-title-inner h2 {
 			border: none;
+			margin: auto;
 			color: white;
 			font-size: 4em;
 			font-family: Pixel, MoskBlack, sans-serif;
