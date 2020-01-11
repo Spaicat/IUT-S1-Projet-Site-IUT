@@ -7,7 +7,7 @@
 	<div class="image-header">
 		<div class="image-header-main">
 			<div id="box-header-title">
-				<img src="images/Titre_IUT_Info_GIF.gif" id="image-header-title" />
+				<img src="images/Titre_IUT_Info.png" id="image-header-title" />
 			</div>
 			<div class="home-header">
 				<div class="home-header-elem">

@@ -244,20 +244,23 @@ h3 {
 			.logo-main {
 				position: relative;
 				display: flex;
-				background-color: #202122;
-				width: 200px;
-				height: 6em;
-				padding-top: 20px;
-				box-shadow: 
-					0px 20px 0px 0px #202122, /*Bas*/
-					20px 0px 0px 0px #202122, /*Droit*/
-					10px 15px 0px 0px #202122, /*Bas 2*/
-					15px 10px 0px 0px #202122, /*Droit 2*/
-					0px 25px 0px 0px white, /*Bas*/
-					25px 0px 0px 0px white, /*Droit*/
-					10px 20px 0px 0px white, /*Bas 2*/
-					20px 10px 0px 0px white, /*Droit 2*/
-					15px 15px 0px 0px white /*Coin*/
+				width: 14em;
+				height: 14em;
+				z-index: 99;
+				background-image: url(../images/cadre-rond-or.png);
+				background-repeat: no-repeat;
+				background-size: contain;
+				image-rendering: pixelated;
+				/*box-shadow: 
+					0px 20px 0px 0px #202122,
+					20px 0px 0px 0px #202122,
+					10px 15px 0px 0px #202122,
+					15px 10px 0px 0px #202122,
+					0px 25px 0px 0px white,
+					25px 0px 0px 0px white,
+					10px 20px 0px 0px white,
+					20px 10px 0px 0px white,
+					15px 15px 0px 0px white*/
 			}
 				.logo-main a {
 					margin: auto;
@@ -267,24 +270,20 @@ h3 {
 					#global-logo-title {
 						font-size: 2em;
 						font-family: Pixel, MoskBlack, sans-serif;
+						text-shadow: 0 5px black;
 					}
-						#global-logo-title span {
-							color: #da4343;
-						}
 			.menu-main {
-				background-color: #202122;
-				height: 3em;
-				padding-top: 20px;
-				box-shadow: 
-					0px 20px 0px 0px #202122, /*Bas*/
-					20px 0px 0px 0px #202122, /*Droit*/
-					10px 15px 0px 0px #202122, /*Bas 2*/
-					15px 10px 0px 0px #202122, /*Droit 2*/
-					0px 25px 0px 0px white, /*Bas*/
-					25px 0px 0px 0px white, /*Droit*/
-					10px 20px 0px 0px white, /*Bas 2*/
-					20px 10px 0px 0px white, /*Droit 2*/
-					15px 15px 0px 0px white /*Coin*/
+				height: 14em;
+				/*box-shadow: 
+					0px 20px 0px 0px #202122,
+					20px 0px 0px 0px #202122,
+					10px 15px 0px 0px #202122,
+					15px 10px 0px 0px #202122,
+					0px 25px 0px 0px white,
+					25px 0px 0px 0px white,
+					10px 20px 0px 0px white,
+					20px 10px 0px 0px white,
+					15px 15px 0px 0px white*/
 			}
 				.mid-menu {
 					display: flex;
@@ -295,24 +294,50 @@ h3 {
 					font-family: Pixel, MoskBlack, sans-serif;
 				}
 					.mid-menu li {
+						position: relative;
 						display: flex;
-						margin: 0 20px;
-						width: 7em;
-						height: 100%;
 						list-style: none;
 					}
+					.mid-menu li:nth-child(1) {
+						left: -12px;
+					}
+					.mid-menu li:nth-child(2) {
+						left: -21px;
+					}
+					.mid-menu li:nth-child(3) {
+						left: -30px;
+					}
+					.mid-menu li:nth-child(4) {
+						left: -39px;
+					}
+					.mid-menu li:nth-child(5) {
+						left: -48px;
+					}
+						.mid-menu img {
+							position: absolute;
+							margin-left: auto;
+							margin-right: auto;
+							left: 0;
+							right: 0;
+							object-fit: contain;
+							height: 100%;
+							image-rendering: pixelated;
+						}
 						.mid-menu a {
+							z-index: 999;
 							display: flex;
 							height: 100%;
-							width: 100%;
+							width: 8em;
 							color: white;
 							text-decoration: none;
 						}
 							.mid-menu span {
+								text-align: center;
 								margin: auto;
+								text-shadow: 0 5px black;
 							}
 .image-header {
-	background-color: #303133;
+	background-color: #151515;
 	text-align: center;
 }
 	.image-header-main {
@@ -397,12 +422,12 @@ h3 {
 					.home-header-elem-inner:hover ~ .arrow-right {
 						animation: bounceRight 1.5s infinite;
 					}
-					@keyframes bounceLeft{
+					@keyframes bounceLeft {
 						from {left: 10em;}
 						50%  {left: 8em;}
 						to   {left: 10em;}
 					}
-					@keyframes bounceRight{
+					@keyframes bounceRight {
 						from {right: 10em;}
 						50%  {right: 8em;}
 						to   {right: 10em;}
@@ -411,14 +436,14 @@ h3 {
 						position: relative;
 						width: 100%;
 						box-shadow: 
-							32px 0 #303133,
-							-32px 0 #303133,
-							0 -32px #303133,
-							0 32px #303133,
-							8px 0 0 16px #303133,
-							-8px 0 0 16px #303133,
-							0 -8px 0 16px #303133,
-							0 8px 0 16px #303133,
+							32px 0 #151515,
+							-32px 0 #151515,
+							0 -32px #151515,
+							0 32px #151515,
+							8px 0 0 16px #151515,
+							-8px 0 0 16px #151515,
+							0 -8px 0 16px #151515,
+							0 8px 0 16px #151515,
 							40px 0 white, /*Droite*/
 							-40px 0 white, /*Gauche*/
 							0 -40px white, /*Haut*/
@@ -459,35 +484,13 @@ h3 {
 	margin-top: 7em;
 	background-color: #303133;
 }
-	.top-pixel {
-	}
-	.bottom-pixel {
-	}
-		.pixel {
-			width: 20px;
-			height: 20px;
-			float: left;
-			transition: background 2s ease-out;
-			margin: 0;
-			font-size: 9px;
-			color: black;
-		}
-		.pix-color1 {
-			background-color: red;
-		}
-		.pix-color2 {
-			background-color: lime;
-		}
-		.pix-color3 {
-			background-color: blue;
-		}
 	.second-title-inner {
 		display: flex;
 		margin: auto;
 		width: 100%;
 		border: solid transparent;
 		border-width: 2em 0;
-		background: #9c7440 url(../images/box_background.png);
+		background: #9c7440;
 		-webkit-border-image: url(../images/box.png) 120px round;
 		-o-border-image: url(../images/box.png) 120px round;
 		border-image: url(../images/box.png) 30 round;
