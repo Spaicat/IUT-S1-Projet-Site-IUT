@@ -244,8 +244,8 @@ h3 {
 			.logo-main {
 				position: relative;
 				display: flex;
-				width: 14em;
-				height: 14em;
+				width: 12em;
+				height: 12em;
 				z-index: 99;
 				background-image: url(../images/cadre-rond.png);
 				background-repeat: no-repeat;
@@ -273,7 +273,7 @@ h3 {
 						text-shadow: 0 5px black;
 					}
 			.menu-main {
-				height: 14em;
+				height: 12em;
 				/*box-shadow: 
 					0px 20px 0px 0px #202122,
 					20px 0px 0px 0px #202122,
@@ -297,21 +297,6 @@ h3 {
 						position: relative;
 						display: flex;
 						list-style: none;
-					}
-					.mid-menu li:nth-child(1) {
-						left: 10px;
-					}
-					.mid-menu li:nth-child(2) {
-						left: 10px;
-					}
-					.mid-menu li:nth-child(3) {
-						left: 10px;
-					}
-					.mid-menu li:nth-child(4) {
-						left: 10px;
-					}
-					.mid-menu li:nth-child(5) {
-						left: 10px;
 					}
 						.mid-menu img {
 							position: absolute;
@@ -338,23 +323,23 @@ h3 {
 								text-shadow: 0 5px black;
 								background-color: #151515;
 								box-shadow: 
-									32px 0 #151515,
-									-32px 0 #151515,
-									0 -32px #151515,
-									0 32px #151515,
-									8px 0 0 16px #151515,
-									-8px 0 0 16px #151515,
-									0 -8px 0 16px #151515,
-									0 8px 0 16px #151515,
-									40px 0 white, /*Droite*/
-									-40px 0 white, /*Gauche*/
-									0 -40px white, /*Haut*/
-									0 40px white, /*Bas*/
-									0 0 0 24px white, /*Coins*/
-									0 16px 0 16px white, /*Coins Droite*/
-									0 -16px 0 16px white,
-									16px 0 0 16px white, /*Coins Gauche*/
-									-16px 0 0 16px white
+									16px 0 #151515,
+									-16px 0 #151515,
+									0 -16px #151515,
+									0 16px #151515,
+									8px 0 0 8px #151515,
+									-8px 0 0 8px #151515,
+									0 -8px 0 8px #151515,
+									0 8px 0 8px #151515,
+									20px 0 white, /*Droite*/
+									-20px 0 white, /*Gauche*/
+									0 -20px white, /*Haut*/
+									0 20px white, /*Bas*/
+									0 0 0 12px white, /*Coins*/
+									0 8px 0 8px white, /*Coins Droite*/
+									0 -8px 0 8px white,
+									8px 0 0 8px white, /*Coins Gauche*/
+									-8px 0 0 8px white
 							}
 .image-header {
 	background-color: #151515;

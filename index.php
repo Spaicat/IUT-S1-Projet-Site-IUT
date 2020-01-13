@@ -70,7 +70,7 @@
 		</div>
 	</div>
 </header>
-<main class="content">
+<!--<main class="content">
 	<div class="content-home">
 		<div class="content-home-box">
 			<div class="home-box-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum, ante at consectetur rhoncus, risus augue vulputate sapien, vel feugiat urna magna id velit. Nam in dignissim urna, sit amet rhoncus leo. Duis risus enim, tempor vitae egestas quis, placerat nec enim. Praesent sem quam, iaculis eget lectus eu, tempor aliquet libero. In mollis mollis mi, at faucibus purus placerat in. Aliquam sit amet neque ullamcorper, lobortis justo sit amet, faucibus augue. Quisque bibendum augue ipsum, et aliquet elit bibendum ac. Quisque pulvinar nulla nisl, ac imperdiet eros tempus vel. Pellentesque semper metus eget porta pharetra. In pulvinar ligula enim, sed imperdiet arcu rutrum quis. Phasellus a quam fermentum, auctor lectus quis, lobortis neque. Duis dignissim eros vitae turpis aliquam ullamcorper.
@@ -84,7 +84,7 @@
 			</div>
 		</div>
 	</div>
-</main>
+</main>-->
 <footer class="main-footer">
 </footer>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
