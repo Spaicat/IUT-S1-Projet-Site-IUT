@@ -7,7 +7,7 @@
 	<?php include 'include/header-1.php'?>
 	<div class="second-title">
 		<div class="second-title-inner">
-			<h2>Vie étudiante</h2>
+			<img src="images/Vie-etudiante_titre.png" />
 		</div>
 	</div>
 </header>

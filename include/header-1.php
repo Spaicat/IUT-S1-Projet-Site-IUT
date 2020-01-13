@@ -9,31 +9,26 @@
 				<div class="menu-main">
 					<ul class="mid-menu">
 						<li>
-							<img src="images/cadre-total-full-extend-or.png" />
-							<a href="index.php" style="margin-left: 8em;">
+							<a href="index.php">
 								<span>Accueil</span>
 							</a>
 						</li>
 						<li>
-							<img src="images/cadre-total-full-or.png" />
 							<a href="Prerequis.php">
 								<span>Prérequis</span>
 							</a>
 						</li>
 						<li>
-							<img src="images/cadre-total-full-or.png" />
 							<a href="Formation.php">
 								<span>Formation</span>
 							</a>
 						</li>
 						<li>
-							<img src="images/cadre-total-full-or.png" />
 							<a href="Debouches.php">
 								<span>Debouchés</span>
 							</a>
 						</li>
 						<li>
-							<img src="images/cadre-total-full-left-or.png" />
 							<a href="Vie-etudiante.php">
 								<span>Vie étudiante</span>
 							</a>

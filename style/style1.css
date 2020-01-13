@@ -2,7 +2,7 @@ html {
 	font-size: 62.5%;
 }
 body {
-	background-color: #202122;
+	background-color: #191919;
 	color: #ececec;
 	font-family: Century Gothic, helvetica, arial, sans-serif;
 	font-size: 1.4em; /* equiv 14px */
@@ -247,7 +247,7 @@ h3 {
 				width: 14em;
 				height: 14em;
 				z-index: 99;
-				background-image: url(../images/cadre-rond-or.png);
+				background-image: url(../images/cadre-rond.png);
 				background-repeat: no-repeat;
 				background-size: contain;
 				image-rendering: pixelated;
@@ -299,19 +299,19 @@ h3 {
 						list-style: none;
 					}
 					.mid-menu li:nth-child(1) {
-						left: -12px;
+						left: 10px;
 					}
 					.mid-menu li:nth-child(2) {
-						left: -21px;
+						left: 10px;
 					}
 					.mid-menu li:nth-child(3) {
-						left: -30px;
+						left: 10px;
 					}
 					.mid-menu li:nth-child(4) {
-						left: -39px;
+						left: 10px;
 					}
 					.mid-menu li:nth-child(5) {
-						left: -48px;
+						left: 10px;
 					}
 						.mid-menu img {
 							position: absolute;
@@ -327,14 +327,34 @@ h3 {
 							z-index: 999;
 							display: flex;
 							height: 100%;
-							width: 8em;
+							width: 9em;
 							color: white;
 							text-decoration: none;
 						}
 							.mid-menu span {
 								text-align: center;
 								margin: auto;
+								width: 6em;
 								text-shadow: 0 5px black;
+								background-color: #151515;
+								box-shadow: 
+									32px 0 #151515,
+									-32px 0 #151515,
+									0 -32px #151515,
+									0 32px #151515,
+									8px 0 0 16px #151515,
+									-8px 0 0 16px #151515,
+									0 -8px 0 16px #151515,
+									0 8px 0 16px #151515,
+									40px 0 white, /*Droite*/
+									-40px 0 white, /*Gauche*/
+									0 -40px white, /*Haut*/
+									0 40px white, /*Bas*/
+									0 0 0 24px white, /*Coins*/
+									0 16px 0 16px white, /*Coins Droite*/
+									0 -16px 0 16px white,
+									16px 0 0 16px white, /*Coins Gauche*/
+									-16px 0 0 16px white
 							}
 .image-header {
 	background-color: #151515;
@@ -345,11 +365,11 @@ h3 {
 		flex-direction: column;
 	}
 		#box-header-title {
-			margin: 1.5em 0 3.5em;
+			margin: 1.5em 0 2.5em;
 		}
 			#image-header-title {				
 				position: relative;
-				width: 75em;
+				width: 55em;
 				animation: bounce 2s infinite;
 				image-rendering: pixelated;
 				z-index: 1;
@@ -365,12 +385,12 @@ h3 {
 			flex-direction: column;
 			margin: auto;
 			width: 100%;
-			max-width: 100em;
+			max-width: 90em;
 			margin-bottom: 10em;
 		}
 			.home-header-elem {
 				position: relative;
-				margin: 3.5em 2em;
+				margin: 3em 2em;
 			}
 				.arrow-left {
 					top: 0;
@@ -386,7 +406,7 @@ h3 {
 					display: none;
 					position: absolute;
 					height: 100%;
-					width: 6em;
+					width: 12em;
 				}
 					.arrow-button div {
 						position: relative;
@@ -401,13 +421,13 @@ h3 {
 							-moz-transform: translate(-50%, -50%);
 							-ms-transform: translate(-50%, -50%);
 							transform: translate(-50%, -50%); /*Fin centrage*/
-							height: 10em;
+							height: 20em;
 							margin: auto;
 							image-rendering: pixelated;
 						}
 				.home-header-elem-inner {
 					display: flex;
-					height: 2.5em;
+					height: 1.5em;
 					margin: 1.5em 1em;
 					text-decoration: none;
 					transition: .25s;
@@ -435,6 +455,7 @@ h3 {
 					.pixel-contain {
 						position: relative;
 						width: 100%;
+						background-color: #151515;
 						box-shadow: 
 							32px 0 #151515,
 							-32px 0 #151515,
@@ -458,7 +479,7 @@ h3 {
 							display: block;
 							margin: auto;
 							width: 100%;
-							font-size: 4em;
+							font-size: 3em;
 							font-family: Pixel, MoskBlack, sans-serif;
 							color: #ececec;
 							position: absolute; /*Ajuste au centre*/
@@ -480,34 +501,21 @@ h3 {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	height: 20em;
+	height: 25em;
 	margin-top: 7em;
-	background-color: #303133;
+	background-color: #101010;
+	border: 1px solid #bb0042;
+	border-width: 1px 0;
 }
 	.second-title-inner {
 		display: flex;
 		margin: auto;
 		width: 100%;
-		border: solid transparent;
-		border-width: 2em 0;
-		background: #9c7440;
-		-webkit-border-image: url(../images/box.png) 120px round;
-		-o-border-image: url(../images/box.png) 120px round;
-		border-image: url(../images/box.png) 30 round;
-		/*box-shadow: 
-			0px 0px 0px 25px #303133, 
-			0px 0px 0px 30px #202122, 
-			0px 0px 0px 40px #303133, 
-			0px 0px 0px 50px #202122, 
-			0px 0px 0px 60px #303133, 
-			0px 0px 0px 80px #202122;*/
 	}
-		.second-title-inner h2 {
-			border: none;
+		.second-title-inner img {
 			margin: auto;
-			color: white;
-			font-size: 4em;
-			font-family: Pixel, MoskBlack, sans-serif;
+			height: 20em;
+			image-rendering: pixelated;
 		}
 
 .main-content {
