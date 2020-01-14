@@ -110,22 +110,6 @@ samp {
 code { line-height: 1em; }
 table { margin-bottom: 1.5em; }
 
-/* avoid top margins on first content element */
-p:first-child,
-ul:first-child,
-ol:first-child,
-dl:first-child,
-blockquote:first-child,
-pre:first-child,
-h1:first-child,
-h2:first-child,
-h3:first-child,
-h4:first-child,
-h5:first-child,
-h6:first-child {
-	margin-top: 0;
-}
-
 /* avoid margins on nested elements */
 li p,
 li ul,
@@ -187,17 +171,22 @@ p {
 	font-size: 1.2em;
 	font-family: Pixel, MoskBlack, sans-serif;
 }
+a {
+	color: #ff005a;
+}
 li {
 	font-family: Pixel, MoskBlack, sans-serif;
 }
 h2 {
-	color: #da4343;
+	color: #ff005a;
+	text-shadow: #ff005a 0 0 6px;
 	font-size: 2em;
 	font-family: Pixel, MoskBlack, sans-serif;
-	border-left: 1px solid;
+	border-left: 2px solid;
 	padding-left: 15px;
 }
 h3 {
+	color: #ff005a;
 	font-size: 1.5em;
 	font-family: Pixel, MoskBlack, sans-serif;
 }
@@ -246,7 +235,7 @@ h3 {
 				display: flex;
 				width: 12em;
 				height: 12em;
-				z-index: 99;
+				z-index: 999;
 				background-image: url(../images/cadre-rond.png);
 				background-repeat: no-repeat;
 				background-size: contain;
@@ -273,7 +262,10 @@ h3 {
 						text-shadow: 0 5px black;
 					}
 			.menu-main {
+				position: relative;
 				height: 12em;
+				left: 0;
+				transition: left 1s;
 				/*box-shadow: 
 					0px 20px 0px 0px #202122,
 					20px 0px 0px 0px #202122,
@@ -309,7 +301,7 @@ h3 {
 							image-rendering: pixelated;
 						}
 						.mid-menu a {
-							z-index: 999;
+							z-index: 998;
 							display: flex;
 							height: 100%;
 							width: 9em;
@@ -518,6 +510,66 @@ h3 {
 				border: 1px solid white;
 				border-collapse: collapse;
 			}
+
+			.card-menu {
+				display: flex;
+				position: relative;
+				max-width: 1200px;
+				width: 100%;
+				margin: 2em auto;
+			}
+			.card-text {
+				display: none;
+				box-shadow: 
+						16px 0 #151515,
+						-16px 0 #151515,
+						0 -16px #151515,
+						0 16px #151515,
+						4px 0 0 8px #151515,
+						-4px 0 0 8px #151515,
+						0 -4px 0 8px #151515,
+						0 4px 0 8px #151515,
+						20px 0 white, /*Droite*/
+						-20px 0 white, /*Gauche*/
+						0 -20px white, /*Haut*/
+						0 20px white, /*Bas*/
+						0 0 0 12px white, /*Coins*/
+						0 8px 0 8px white, /*Coins Droite*/
+						0 -8px 0 8px white,
+						8px 0 0 8px white, /*Coins Gauche*/
+						-8px 0 0 8px white
+			}
+				.card-content {
+					cursor: pointer;
+					display: flex;
+					margin: auto;
+					width: 13em;
+					height: 4em;
+					text-align: center;
+					background-color: #151515;
+					box-shadow: 
+						16px 0 #151515,
+						-16px 0 #151515,
+						0 -16px #151515,
+						0 16px #151515,
+						4px 0 0 8px #151515,
+						-4px 0 0 8px #151515,
+						0 -4px 0 8px #151515,
+						0 4px 0 8px #151515,
+						20px 0 white, /*Droite*/
+						-20px 0 white, /*Gauche*/
+						0 -20px white, /*Haut*/
+						0 20px white, /*Bas*/
+						0 0 0 12px white, /*Coins*/
+						0 8px 0 8px white, /*Coins Droite*/
+						0 -8px 0 8px white,
+						8px 0 0 8px white, /*Coins Gauche*/
+						-8px 0 0 8px white
+				}
+					.card-title {
+						margin-top: auto;
+						margin: auto;
+					}
 
 .citation-main {
 	margin: 1.5em;
