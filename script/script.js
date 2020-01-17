@@ -24,3 +24,16 @@ function buttonAppearText(NBbtn) {
     buttonClick.style.backgroundColor = "#707070";
     buttonClick.style.boxShadow = "16px 0 #707070, -16px 0 #707070, 0 -16px #707070, 0 16px #707070, 4px 0 0 8px #707070, -4px 0 0 8px #707070, 0 -4px 0 8px #707070, 0 4px 0 8px #707070, 20px 0 white, -20px 0 white, 0 -20px white, 0 20px white, 0 0 0 12px white, 0 8px 0 8px white, 0 -8px 0 8px white, 8px 0 0 8px white, -8px 0 0 8px white";
 }
+
+/*--------|Texte qui apparait|--------*/
+var i = 0;
+var txt = 'Bienvenue sur le site présentant l\'institut universitaire technologique (IUT) de Dijon. Nous sommes trois étudiants en formation pour obtenir le diplôme universitaire technologique (DUT) d\'informatique. Ce site a donc pour but de vous présenter les différents aspects de celui-ci.'; /* The text */
+var speed = 25; /* En millisecondes */
+
+window.onload = function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("sans-text").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}

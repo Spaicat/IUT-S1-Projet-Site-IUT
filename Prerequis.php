@@ -15,60 +15,62 @@
 <main class="main-content">
 	<div class="second-content">
 		<div class="content-part">
-			<h2>Les prérequis du DUT Informatique</h2>	
-			<p>
-				Comme dans toutes études supérieures le DUT Informatique nécessite quelques prérequis, mais il faut garder en tête que lorsque vous arrivez à l'IUT, vous venez pour apprendre. Il ne faut pas être un pro en programmation pour accéder à ce DUT.
-			</p>
+			<div class="title-content">
+				<h2>Les prérequis du DUT Informatique</h2>
+			</div>
+			<div class="container-content">
+				<p>
+					Comme dans toutes études supérieures le DUT Informatique nécessite quelques prérequis, mais il faut garder en tête que lorsque vous arrivez à l'IUT, vous venez pour apprendre. Il ne faut pas être un pro en programmation pour accéder à ce DUT.
+				</p>
+			</div>
 		</div>
 		<div class="content-part">
-			<h2>Sommaire</h2>
-			<ul>
-				<li>Le baccalauréat</li>
-				<li>Les attendus</li>
-				<li>L'inscription</li>
-				<li>Parcoursup</li>
-				<li>L'inscription au DUT Informatique de Dijon</li>
-			</ul>
+			<div class="container-content">
+				<p>
+					Pour accéder au DUT Informatique il faut être titulaire d'un baccalauréat. Les bacheliers les plus recherchés en informatique viennent de S ou STI2D, mais d'autres BAC sont évidemment acceptés. L'admission se faisant sur dossier, un bon parcours au lycée aide à être accepté plus facilement.
+				</p>
+			</div>
+			<div class="title-content">
+				<h2>Le baccalauréat</h2>
+			</div>
 		</div>
 		<div class="content-part">
-			<h2>Le baccalauréat</h2>
-			<p>
-				Pour accéder au DUT Informatique il faut être titulaire d'un baccalauréat. Les bacheliers les plus recherchés en informatique viennent de S ou STI2D, mais d'autres BAC sont évidemment acceptés. L'admission se faisant sur dossier, un bon parcours au lycée aide à être accepté plus facilement.
-			</p>
+			<div class="title-content">
+				<h2>Les attendus</h2>
+			</div>
+			<div class="container-content">
+				<p>
+					Bien que les étudiants viennent dans ce DUT pour apprendre, quelques connaissances sont nécessaires.
+					<ul>
+						<li>Un bon niveau en mathématique (n'ayez pas peur, cela ne déterminera pas votre DUT, vous devrez simplement donner un peu plus d'efforts)</li>
+						<li>Une expression française correcte et une bonne maîtrise de l'anglais</li>
+						<li>Ouverture d'esprit, rigueur, autonomie</li>
+						<li>Logique, esprit d'analyse et de synthèse</li>
+					</ul>
+				</p>
+			</div>
 		</div>
 		<div class="content-part">
-			<h2>Les attendus</h2>
-			<p>
-				Bien que les étudiants viennent dans ce DUT pour apprendre, quelques connaissances sont nécessaires.
-				<ul>
-					<li>Un bon niveau en mathématique (n'ayez pas peur, cela ne déterminera pas votre DUT, vous devrez simplement donner un peu plus d'efforts)</li>
-					<li>Une expression française correcte et une bonne maîtrise de l'anglais</li>
-					<li>Ouverture d'esprit, rigueur, autonomie</li>
-					<li>Logique, esprit d'analyse et de synthèse</li>
-				</ul>
-			</p>
-		</div>
-		<div class="content-part">
-			<h2>L'inscription</h2>
+			<div class="container-content">
 				<h3>Parcoursup</h3>
 					<p>Pour accéder au DUT Informatique vous devrez premièrement accéder à Parcoursup. Si vous êtes en établissement scolaire vos professeurs vous accompagneront dans la démarche d'inscription qui ouvre le 20 décembre.</p>
 				
 					<p>Le principe de Parcoursup est de formuler des voeux dans différents établissements qui analyseront par la suite votre dossier. Suite à votre inscription différentes démarches sont à effectuer..</p>
 					<div class="card-menu">
 						<div class="card-content card-phase-1" onclick="buttonAppearText(1)">
-							<p class="card-title">22 janvier - 12 mars : Formulation des voeux</p>
+							<span class="card-title">22 janvier - 12 mars : Formulation des voeux</span>
 						</div>
 						<div class="card-content card-phase-2" onclick="buttonAppearText(2)">
-							<p class="card-title">2 avril : Limite de la phase d'admission</p>
+							<span class="card-title">2 avril : Limite de la phase d'admission</span>
 						</div>
 						<div class="card-content card-phase-3" onclick="buttonAppearText(3)">
-							<p class="card-title">19 mai - 17 juillet</p>
+							<span class="card-title">19 mai - 17 juillet</span>
 						</div>
 						<div class="card-content card-phase-4" onclick="buttonAppearText(4)">
-							<p class="card-title">Début juillet</p>
+							<span class="card-title">Début juillet</span>
 						</div>
 						<div class="card-content card-phase-5" onclick="buttonAppearText(5)">
-							<p class="card-title">Fin juin - 11 septembre</p>
+							<span class="card-title">Fin juin - 11 septembre</span>
 						</div>
 					</div>
 
@@ -98,6 +100,10 @@
 					</div>
 				<h3>L'inscription au DUT Informatique de Dijon</h3>
 					<p>L'établissement examine votre dossier, si un équilibre en les différentes matières est présente, si votre comportement correspond à celui attendu,... Une fois que vous avez été accepté sur Parcoursup et que vous avez confirmé votre venu dans la formation, l'inscription débute en juillet et se déroule entièrement en ligne. Des dossiers seront mis à votre disposition. Des informations complémentaires ainsi que des papiers vous seront demandés. Pour vous inscrire vous aurez obligatoirement besoin de votre <a href='https://cvec.etudiant.gouv.fr/'>CVEC</a>, pour un coût de 90€. Les frais d'inscriptions s'élèvent ensuite à 170€.</p>
+			</div>
+			<div class="title-content">
+				<h2>L'inscription</h2>
+			</div>
 		</div>
 	</div>
 </main>

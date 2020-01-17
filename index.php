@@ -9,6 +9,9 @@
 			<div id="box-header-title">
 				<img src="images/Titre_IUT_Info.png" id="image-header-title" />
 			</div>
+			<p id="sans-text">
+				<img src="images/UT_star.png" />
+			</p>
 			<div class="home-header">
 				<div class="home-header-elem">
 					<a class="home-header-elem-inner" href="Prerequis.php">
@@ -18,12 +21,12 @@
 					</a>
 					<div class="arrow-button arrow-left noHover">
 						<div>
-							<img src="images/main_button_arrow" />
+							<img src="images/main_button_arrow.png" />
 						</div>
 					</div>
 					<div class="arrow-button arrow-right noHover">
 						<div>
-							<img src="images/main_button_arrow" />
+							<img src="images/main_button_arrow.png" />
 						</div>
 					</div>
 				</div>
@@ -34,10 +37,10 @@
 						</div>
 					</a>
 					<div class="arrow-button arrow-left noHover">
-						<img src="images/main_button_arrow" />
+						<img src="images/main_button_arrow.png" />
 					</div>
 					<div class="arrow-button arrow-right noHover">
-						<img src="images/main_button_arrow" />
+						<img src="images/main_button_arrow.png" />
 					</div>
 				</div>
 				<div class="home-header-elem">
@@ -47,10 +50,10 @@
 						</div>
 					</a>
 					<div class="arrow-button arrow-left noHover">
-						<img src="images/main_button_arrow" />
+						<img src="images/main_button_arrow.png" />
 					</div>
 					<div class="arrow-button arrow-right noHover">
-						<img src="images/main_button_arrow" />
+						<img src="images/main_button_arrow.png" />
 					</div>
 				</div>
 				<div class="home-header-elem">
@@ -60,10 +63,10 @@
 						</div>
 					</a>
 					<div class="arrow-button arrow-left noHover">
-						<img src="images/main_button_arrow" />
+						<img src="images/main_button_arrow.png" />
 					</div>
 					<div class="arrow-button arrow-right noHover">
-						<img src="images/main_button_arrow" />
+						<img src="images/main_button_arrow.png" />
 					</div>
 				</div>
 			</div>

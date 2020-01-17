@@ -3,7 +3,7 @@ html {
 }
 body {
 	background-color: #191919;
-	color: #ececec;
+	color: #CCCCCC;
 	font-family: Century Gothic, helvetica, arial, sans-serif;
 	font-size: 1.4em; /* equiv 14px */
 	line-height: 1.5; /* adapt to your design */
@@ -182,7 +182,6 @@ h2 {
 	text-shadow: #ff005a 0 0 6px;
 	font-size: 2em;
 	font-family: Pixel, MoskBlack, sans-serif;
-	border-left: 2px solid;
 	padding-left: 15px;
 }
 h3 {
@@ -218,15 +217,17 @@ h3 {
 	font-family: Pixel;
 	src: url("../fonts/Pixel.ttf");
 }
+@font-face {
+	font-family: ComicSans;
+	src: url("../fonts/Comic_Sans.ttf");
+}
 
 /*---------------------------|Header|---------------------------*/
 .header-menu {
 	position: fixed;
+	display: flex;
 	top: 0;
-	width: 100%;
 }
-	.menu-global {
-	}
 		.menu-global-inner {
 			display: flex;
 		}
@@ -236,34 +237,23 @@ h3 {
 				width: 12em;
 				height: 12em;
 				z-index: 999;
+				background-position: center;
 				background-image: url(../images/cadre-rond.png);
 				background-repeat: no-repeat;
 				background-size: contain;
 				image-rendering: pixelated;
-				/*box-shadow: 
-					0px 20px 0px 0px #202122,
-					20px 0px 0px 0px #202122,
-					10px 15px 0px 0px #202122,
-					15px 10px 0px 0px #202122,
-					0px 25px 0px 0px white,
-					25px 0px 0px 0px white,
-					10px 20px 0px 0px white,
-					20px 10px 0px 0px white,
-					15px 15px 0px 0px white*/
 			}
 				.logo-main a {
 					margin: auto;
 					color: white;
 					text-decoration: none;
+					padding: 0 1.5em;
 				}
-					#global-logo-title {
-						font-size: 2em;
-						font-family: Pixel, MoskBlack, sans-serif;
-						text-shadow: 0 5px black;
-					}
+
 			.menu-main {
 				position: relative;
 				height: 12em;
+				width: 100%;
 				left: 0;
 				transition: left 1s;
 				/*box-shadow: 
@@ -279,7 +269,7 @@ h3 {
 			}
 				.mid-menu {
 					display: flex;
-					margin: auto;
+					margin: initial;
 					height: 100%;
 					padding: 0;
 					font-size: 1.7em;
@@ -288,23 +278,14 @@ h3 {
 					.mid-menu li {
 						position: relative;
 						display: flex;
+						margin: auto;
 						list-style: none;
 					}
-						.mid-menu img {
-							position: absolute;
-							margin-left: auto;
-							margin-right: auto;
-							left: 0;
-							right: 0;
-							object-fit: contain;
-							height: 100%;
-							image-rendering: pixelated;
-						}
 						.mid-menu a {
 							z-index: 998;
 							display: flex;
 							height: 100%;
-							width: 9em;
+							width: 8em;
 							color: white;
 							text-decoration: none;
 						}
@@ -342,11 +323,30 @@ h3 {
 		flex-direction: column;
 	}
 		#box-header-title {
-			margin: 1.5em 0 2.5em;
+			margin: 0 0 1em;
 		}
+		#sans-text {
+			position: relative;
+			max-width: 31em;
+			margin: auto;
+			margin-bottom: 2em;
+			border: 7px solid white;
+			padding: 2em;
+			text-align: initial;
+			font-size: 1.7em;
+			font-family: ComicSans;
+		}
+			#sans-text img {
+				width: 0.8em;
+				image-rendering: pixelated;
+				position: absolute;
+				top: 56px;
+				left: 20px;
+			}
+
 			#image-header-title {				
 				position: relative;
-				width: 55em;
+				width: 60em;
 				animation: bounce 2s infinite;
 				image-rendering: pixelated;
 				z-index: 1;
@@ -362,12 +362,12 @@ h3 {
 			flex-direction: column;
 			margin: auto;
 			width: 100%;
-			max-width: 90em;
+			max-width: 75em;
 			margin-bottom: 10em;
 		}
 			.home-header-elem {
 				position: relative;
-				margin: 3em 2em;
+				margin: 3.5em 2em;
 			}
 				.arrow-left {
 					top: 0;
@@ -398,14 +398,13 @@ h3 {
 							-moz-transform: translate(-50%, -50%);
 							-ms-transform: translate(-50%, -50%);
 							transform: translate(-50%, -50%); /*Fin centrage*/
-							height: 20em;
+							height: 15em;
 							margin: auto;
 							image-rendering: pixelated;
 						}
 				.home-header-elem-inner {
 					display: flex;
-					height: 1.5em;
-					margin: 1.5em 1em;
+					height: 1em;
 					text-decoration: none;
 					transition: .25s;
 				}
@@ -434,29 +433,29 @@ h3 {
 						width: 100%;
 						background-color: #151515;
 						box-shadow: 
-							32px 0 #151515,
-							-32px 0 #151515,
-							0 -32px #151515,
-							0 32px #151515,
-							8px 0 0 16px #151515,
-							-8px 0 0 16px #151515,
-							0 -8px 0 16px #151515,
-							0 8px 0 16px #151515,
-							40px 0 white, /*Droite*/
-							-40px 0 white, /*Gauche*/
-							0 -40px white, /*Haut*/
-							0 40px white, /*Bas*/
-							0 0 0 24px white, /*Coins*/
-							0 16px 0 16px white, /*Coins Droite*/
-							0 -16px 0 16px white,
-							16px 0 0 16px white, /*Coins Gauche*/
-							-16px 0 0 16px white
+							24px 0 #151515,
+							-24px 0 #151515,
+							0 -24px #151515,
+							0 24px #151515,
+							6px 0 0 12px #151515,
+							-6px 0 0 12px #151515,
+							0 -6px 0 12px #151515,
+							0 6px 0 12px #151515,
+							30px 0 white, /*Droite*/
+							-30px 0 white, /*Gauche*/
+							0 -30px white, /*Haut*/
+							0 30px white, /*Bas*/
+							0 0 0 18px white, /*Coins*/
+							0 12px 0 12px white, /*Coins Droite*/
+							0 -12px 0 12px white,
+							12px 0 0 12px white, /*Coins Gauche*/
+							-12px 0 0 12px white
 					}
 						.pixel-contain span {
 							display: block;
 							margin: auto;
 							width: 100%;
-							font-size: 3em;
+							font-size: 2.2em;
 							font-family: Pixel, MoskBlack, sans-serif;
 							color: #ececec;
 							position: absolute; /*Ajuste au centre*/
@@ -502,7 +501,35 @@ h3 {
 		padding: 3em 0;
 	}
 		.content-part {
+			display: flex;
+			width: 100%;
 		}
+			.content-part {
+				margin: auto;
+			}
+				.content-part h2 {
+					margin-top: 0;
+				}
+			.title-content {
+				text-align: center;
+				width: 40%;
+				margin: 0 0 auto 0;
+			}
+			.container-content {
+				float: right;
+				width: 60%;
+				border: 5px solid white;
+				margin: 0 2em 3em;
+				padding: 1em;
+			}
+				.container-content h3 {
+					margin: initial;
+				}
+				.container-content p {
+					margin-top: 20px;
+					margin-bottom: 20px;
+				}
+
 			.content-part table {
 				width: 100%;
 			}
@@ -521,23 +548,23 @@ h3 {
 			.card-text {
 				display: none;
 				box-shadow: 
-						16px 0 #151515,
-						-16px 0 #151515,
-						0 -16px #151515,
-						0 16px #151515,
-						4px 0 0 8px #151515,
-						-4px 0 0 8px #151515,
-						0 -4px 0 8px #151515,
-						0 4px 0 8px #151515,
-						20px 0 white, /*Droite*/
-						-20px 0 white, /*Gauche*/
-						0 -20px white, /*Haut*/
-						0 20px white, /*Bas*/
-						0 0 0 12px white, /*Coins*/
-						0 8px 0 8px white, /*Coins Droite*/
-						0 -8px 0 8px white,
-						8px 0 0 8px white, /*Coins Gauche*/
-						-8px 0 0 8px white
+					16px 0 #151515,
+					-16px 0 #151515,
+					0 -16px #151515,
+					0 16px #151515,
+					4px 0 0 8px #151515,
+					-4px 0 0 8px #151515,
+					0 -4px 0 8px #151515,
+					0 4px 0 8px #151515,
+					20px 0 white, /*Droite*/
+					-20px 0 white, /*Gauche*/
+					0 -20px white, /*Haut*/
+					0 20px white, /*Bas*/
+					0 0 0 12px white, /*Coins*/
+					0 8px 0 8px white, /*Coins Droite*/
+					0 -8px 0 8px white,
+					8px 0 0 8px white, /*Coins Gauche*/
+					-8px 0 0 8px white
 			}
 				.card-content {
 					cursor: pointer;
@@ -567,8 +594,9 @@ h3 {
 						-8px 0 0 8px white
 				}
 					.card-title {
-						margin-top: auto;
 						margin: auto;
+						font-size: 1.2em;
+						font-family: Pixel, MoskBlack, sans-serif;
 					}
 
 .citation-main {
