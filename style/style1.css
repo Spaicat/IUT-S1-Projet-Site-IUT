@@ -178,11 +178,10 @@ li {
 	font-family: Pixel, MoskBlack, sans-serif;
 }
 h2 {
-	color: #ff005a;
+	color: white;
 	text-shadow: #ff005a 0 0 6px;
 	font-size: 2em;
 	font-family: Pixel, MoskBlack, sans-serif;
-	padding-left: 15px;
 }
 h3 {
 	color: #ff005a;
@@ -495,31 +494,54 @@ h3 {
 		}
 
 .main-content {
-	margin: 0 10em;
+	padding: 3em 0;
 }
-	.second-content {
-		padding: 3em 0;
+	.content-part {
+		width: 100%;
+		margin-bottom: 6em;
 	}
-		.content-part {
-			display: flex;
-			width: 100%;
-		}
-			.content-part {
-				margin: auto;
-			}
-				.content-part h2 {
-					margin-top: 0;
-				}
 			.title-content {
+				position: relative;
+				display: flex;
+				align-items: center;
 				text-align: center;
-				width: 40%;
-				margin: 0 0 auto 0;
 			}
+			.title-content:before {
+				content: '';
+				border-top: 10px solid #f8206c;
+				flex: 1 0 20px;
+			}
+				.title-content div {
+					position: absolute;
+					left: 10%;
+					width: 28%;
+					background-color: #191919;
+				}
+					.title-content h2 {
+						margin-top: 0;
+					}
+
+		.section-content {
+			display: flex;
+			margin: 2em 10%;
+		}
+			.menu-content {
+				margin: 0;
+				padding: 0;
+				width: 40%;
+			}
+				.menu-content li {
+					cursor: pointer;
+					display: block;
+					margin:  1px 10% 1em 0;
+					padding: 0 10px;
+					border: 1px solid #f8206c;
+					list-style: none;
+					font-size: 15pt;
+				}
 			.container-content {
-				float: right;
 				width: 60%;
-				border: 5px solid white;
-				margin: 0 2em 3em;
+				border: 10px solid #f8206c;
 				padding: 1em;
 			}
 				.container-content h3 {
