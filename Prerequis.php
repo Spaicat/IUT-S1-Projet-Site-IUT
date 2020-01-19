@@ -14,17 +14,17 @@
 
 <main class="main-content">
 		<div class="content-part">
-			<div class="title-content">
+			0<div class="title-content">
 				<div>
 					<h2>Les prérequis du DUT Informatique</h2>
 				</div>
 			</div>
 			<div class="section-content">
-				<ul class="menu-content">
-					<li>Lorem Ipsum</li>
-					<li>Lorem Ipsum</li>
-					<li>Lorem Ipsum</li>
-				</ul>
+				<div class="menu-content">
+					<button>Lorem Ipsum</button>
+					<button>Lorem Ipsum</button>
+					<button>Lorem Ipsum</button>
+				</div>
 				<div class="container-content">
 					<p>
 						Comme dans toutes études supérieures le DUT Informatique nécessite quelques prérequis, mais il faut garder en tête que lorsque vous arrivez à l'IUT, vous venez pour apprendre. Il ne faut pas être un pro en programmation pour accéder à ce DUT.
@@ -41,11 +41,11 @@
 				</div>
 			</div>
 			<div class="section-content">
-				<ul class="menu-content">
-					<li>Lorem Ipsum</li>
-					<li>Lorem Ipsum</li>
-					<li>Lorem Ipsum</li>
-				</ul>
+				<div class="menu-content">
+					<button>Lorem Ipsum</button>
+					<button>Lorem Ipsum</button>
+					<button>Lorem Ipsum</button>
+				</div>
 				<div class="container-content">
 					<p>
 						Pour accéder au DUT Informatique il faut être titulaire d'un baccalauréat. Les bacheliers les plus recherchés en informatique viennent de S ou STI2D, mais d'autres BAC sont évidemment acceptés. L'admission se faisant sur dossier, un bon parcours au lycée aide à être accepté plus facilement.
@@ -62,11 +62,11 @@
 				</div>
 			</div>
 			<div class="section-content">
-				<ul class="menu-content">
-					<li>Lorem Ipsum</li>
-					<li>Lorem Ipsum</li>
-					<li>Lorem Ipsum</li>
-				</ul>
+				<div class="menu-content">
+					<button>Lorem Ipsum</button>
+					<button>Lorem Ipsum</button>
+					<button>Lorem Ipsum</button>
+				</div>
 				<div class="container-content">
 					<p>
 						Bien que les étudiants viennent dans ce DUT pour apprendre, quelques connaissances sont nécessaires.
@@ -89,11 +89,11 @@
 				</div>
 			</div>
 			<div class="section-content">
-				<ul class="menu-content">
-					<li>Lorem Ipsum</li>
-					<li>Lorem Ipsum</li>
-					<li>Lorem Ipsum</li>
-				</ul>
+				<div class="menu-content">
+					<button>Lorem Ipsum</button>
+					<button>Lorem Ipsum</button>
+					<button>Lorem Ipsum</button>
+				</div>
 				<div class="container-content">
 					<h3>Parcoursup</h3>
 						<p>Pour accéder au DUT Informatique vous devrez premièrement accéder à Parcoursup. Si vous êtes en établissement scolaire vos professeurs vous accompagneront dans la démarche d'inscription qui ouvre le 20 décembre.</p>
