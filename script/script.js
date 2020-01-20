@@ -37,3 +37,19 @@ window.onload = function typeWriter() {
     setTimeout(typeWriter, speed);
   }
 }
+
+/*--------|Affiche chaque boite selon le bouton cliqué|--------*/
+$(function() {
+  $('.content-part').each(function() {
+    var $thisVar = $(this);
+    $(this).find('.container-content:first').show();
+    $(this).find('.menu-content li:first').addClass('currentBtnBox');
+    $(this).find('.menu-content li').click(function() {
+      $thisVar.find('.container-content').hide();
+      $thisVar.find('.menu-content li').removeClass('currentBtnBox');
+
+      $thisVar.find('.container-content').eq($(this).index()).toggle();
+      $(this).addClass('currentBtnBox');
+    })
+  })
+})

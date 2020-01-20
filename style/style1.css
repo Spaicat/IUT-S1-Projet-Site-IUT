@@ -168,8 +168,12 @@ body > script {display: none !important;}
 /*---------------------------|GeneralCSS|---------------------------*/
 
 p {
-	font-size: 1.2em;
+	font-size: 1.3em;
 	font-family: Pixel, MoskBlack, sans-serif;
+}
+strong {
+	font-weight: bolder;
+	color: #d27a99;
 }
 a {
 	color: #ff005a;
@@ -178,6 +182,7 @@ li {
 	font-family: Pixel, MoskBlack, sans-serif;
 }
 h2 {
+	font-size: 1.5em;
 	color: white;
 	text-shadow: #ff005a 0 0 6px;
 	font-size: 2em;
@@ -498,7 +503,7 @@ h3 {
 }
 	.content-part {
 		width: 100%;
-		margin-bottom: 6em;
+		margin-bottom: 12em;
 	}
 			.title-content {
 				z-index: -1;
@@ -516,11 +521,14 @@ h3 {
 				.title-content div {
 					position: absolute;
 					left: 10%;
-					width: 28%;
-					background-color: #191919;
+					width: 35%;
 				}
 					.title-content h2 {
-						margin-top: 0;
+						font-size: 25pt;
+						width: fit-content;
+						margin: auto;
+						background-color: #191919;
+						padding: 0 3%;
 					}
 
 		.section-content {
@@ -530,7 +538,7 @@ h3 {
 			.menu-content {
 				margin: 0;
 				padding: 0;
-				width: 40%;
+				width: 30%;
 			}
 				.menu-content li {
 					cursor: pointer;
@@ -545,8 +553,12 @@ h3 {
 					background-color: #f8206c;
 					color: black;
 				}
+				.currentBtnBox {
+					background-color: #f8206c;
+					color: black;
+				}
 			.container-content {
-				width: 60%;
+				width: 70%;
 				border: 10px solid #f8206c;
 				padding: 1em;
 				/*box-shadow: 0px 0px 0 7px #191919, 17px 17px 0 1px #f8206c;*/ /*Alternative*/
@@ -567,12 +579,14 @@ h3 {
 					margin-bottom: 20px;
 				}
 
+			.content-part table, .content-part td, .content-part th {
+				background: #202e38;
+			}
 			.content-part table {
 				width: 100%;
-			}
-			.content-part table, .content-part td, .content-part th {
-				border: 1px solid white;
-				border-collapse: collapse;
+				background-image: linear-gradient(to bottom, red 0%, orange 100%);
+				background-origin: border-box;
+				border-spacing: 5px;
 			}
 
 			.card-menu {

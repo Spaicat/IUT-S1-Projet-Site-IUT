@@ -14,60 +14,24 @@
 
 <main class="main-content">
 		<div class="content-part">
-			0<div class="title-content">
+			<div class="title-content">
 				<div>
 					<h2>Les prérequis du DUT Informatique</h2>
 				</div>
 			</div>
 			<div class="section-content">
 				<div class="menu-content">
-					<button>Lorem Ipsum</button>
-					<button>Lorem Ipsum</button>
-					<button>Lorem Ipsum</button>
+					<li>Ce qu'il faut savoir</li>
+					<li>Les attendus</li>
 				</div>
-				<div class="container-content">
+				<div class="container-content" style="display: none;">
+					<h3>Ce qu'il faut savoir</h3>
 					<p>
-						Comme dans toutes études supérieures le DUT Informatique nécessite quelques prérequis, mais il faut garder en tête que lorsque vous arrivez à l'IUT, vous venez pour apprendre. Il ne faut pas être un pro en programmation pour accéder à ce DUT.
+						Comme dans toutes études supérieures le DUT Informatique nécessite quelques prérequis, mais il faut garder en tête que lorsque vous arrivez à l'IUT, vous venez pour apprendre. Il <strong>ne faut pas être un pro en programmation</strong> pour accéder à ce DUT.
 					</p>
 				</div>
-			</div>
-		</div>
-		<div class="content-part">
-			<div class="title-content-global">
-				<div class="title-content">
-					<div>
-						<h2>Le baccalauréat</h2>
-					</div>
-				</div>
-			</div>
-			<div class="section-content">
-				<div class="menu-content">
-					<button>Lorem Ipsum</button>
-					<button>Lorem Ipsum</button>
-					<button>Lorem Ipsum</button>
-				</div>
-				<div class="container-content">
-					<p>
-						Pour accéder au DUT Informatique il faut être titulaire d'un baccalauréat. Les bacheliers les plus recherchés en informatique viennent de S ou STI2D, mais d'autres BAC sont évidemment acceptés. L'admission se faisant sur dossier, un bon parcours au lycée aide à être accepté plus facilement.
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="content-part">
-			<div class="title-content-global">
-				<div class="title-content">
-					<div>
-						<h2>Les attendus</h2>
-					</div>
-				</div>
-			</div>
-			<div class="section-content">
-				<div class="menu-content">
-					<button>Lorem Ipsum</button>
-					<button>Lorem Ipsum</button>
-					<button>Lorem Ipsum</button>
-				</div>
-				<div class="container-content">
+				<div class="container-content" style="display: none;">
+					<h3>Les attendus</h3>
 					<p>
 						Bien que les étudiants viennent dans ce DUT pour apprendre, quelques connaissances sont nécessaires.
 						<ul>
@@ -81,20 +45,35 @@
 			</div>
 		</div>
 		<div class="content-part">
-			<div class="title-content-global">
-				<div class="title-content">
-					<div>
-						<h2>L'inscription</h2>
-					</div>
+			<div class="title-content">
+				<div>
+					<h2>Le baccalauréat</h2>
 				</div>
 			</div>
 			<div class="section-content">
 				<div class="menu-content">
-					<button>Lorem Ipsum</button>
-					<button>Lorem Ipsum</button>
-					<button>Lorem Ipsum</button>
+					<li style="background-color: #f8206c; color: black;">Que faut-il avoir ?</li>
 				</div>
 				<div class="container-content">
+					<h3>Que faut-il avoir ?</h3>
+					<p>
+						Pour accéder au DUT Informatique il faut être titulaire d'un baccalauréat. Les bacheliers les plus recherchés en informatique viennent de S ou STI2D, mais d'autres BAC sont évidemment acceptés. L'admission se faisant sur dossier, un bon parcours au lycée aide à être accepté plus facilement.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="content-part">
+			<div class="title-content">
+				<div>
+					<h2>L'inscription</h2>
+				</div>
+			</div>
+			<div class="section-content">
+				<div class="menu-content">
+					<li>Parcoursup</li>
+					<li>L'inscription au DUT Informatique de Dijon</li>
+				</div>
+				<div class="container-content" style="display: none;">
 					<h3>Parcoursup</h3>
 						<p>Pour accéder au DUT Informatique vous devrez premièrement accéder à Parcoursup. Si vous êtes en établissement scolaire vos professeurs vous accompagneront dans la démarche d'inscription qui ouvre le 20 décembre.</p>
 					
@@ -141,6 +120,8 @@
 							<br />
 							<p>Pour plus d'informations, rendez-vous sur le site de Parcoursup en cliquant <a href='https://www.parcoursup.fr/'>ici</a>.</p>
 						</div>
+				</div>
+				<div class="container-content" style="display: none;">
 					<h3>L'inscription au DUT Informatique de Dijon</h3>
 						<p>L'établissement examine votre dossier, si un équilibre en les différentes matières est présente, si votre comportement correspond à celui attendu,... Une fois que vous avez été accepté sur Parcoursup et que vous avez confirmé votre venu dans la formation, l'inscription débute en juillet et se déroule entièrement en ligne. Des dossiers seront mis à votre disposition. Des informations complémentaires ainsi que des papiers vous seront demandés. Pour vous inscrire vous aurez obligatoirement besoin de votre <a href='https://cvec.etudiant.gouv.fr/'>CVEC</a>, pour un coût de 90€. Les frais d'inscriptions s'élèvent ensuite à 170€.</p>
 				</div>
