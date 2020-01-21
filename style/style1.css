@@ -773,18 +773,36 @@ h3 {
 
 @media all and (max-width: 1200px)
 {
+	.title-content div {
+		left: 50%;
+		-webkit-transform: translate(-50%, 0);
+		-moz-transform: translate(-50%, 0);
+		-ms-transform: translate(-50%, 0);
+		transform: translate(-50%, 0);
+	}
 	.section-content {
 		flex-direction: column;
+		margin: 4em 0;
 	}
 		.menu-content {
+			display: flex;
+			flex-direction: column;
 			width: 100%;
 			margin-bottom: 2em;
 		}
 		.container-content {
 			width: calc(100% - 2em);
+			border-left: none;
+			border-right: none;
+			box-shadow:
+				0 3px 0 1px #191919, /*Haut*/
+				0 -3px 0 1px #191919, /*Bas*/
+				0 0 0 4px #191919, /*Droite*/
+				0 5px 0 1px #f8206c, /*Haut*/
+				0 -5px 0 1px #f8206c; /*Bas*/
 		}
 			.menu-content li {
-				width: 100%;
+				margin: 0.5em auto;
 			}
 
 	.header-menu {
