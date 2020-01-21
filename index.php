@@ -73,8 +73,6 @@
 		</div>
 	</div>
 </header>
-<footer class="main-footer">
-</footer>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script src="script/script.js"></script>
 </body>
