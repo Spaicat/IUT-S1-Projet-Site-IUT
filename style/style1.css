@@ -168,7 +168,7 @@ body > script {display: none !important;}
 /*---------------------------|GeneralCSS|---------------------------*/
 
 p {
-	font-size: 1.3em;
+	font-size: 1.4em;
 	font-family: Pixel, MoskBlack, sans-serif;
 }
 strong {
@@ -547,7 +547,8 @@ h3 {
 					padding: 0 10px;
 					border: 1px solid #f8206c;
 					list-style: none;
-					font-size: 15pt;
+					font-size: 17pt;
+					text-shadow: 0 2px black;
 				}
 				.menu-content li:hover {
 					background-color: #f8206c;
@@ -585,6 +586,32 @@ h3 {
 						cursor: zoom-in;
 						margin: auto;
 					}
+
+				.RondGraph {
+				}
+					.RondGraph div {
+						display: flex;
+						flex-direction: column;
+						float: left;
+						margin: 0.5em;
+						padding: 3em;
+						width: 11em;
+						height: 11em;
+						background-image: url(../images/cadre-rond-rouge.png);
+						background-repeat: no-repeat;
+						background-size: contain;
+						image-rendering: pixelated;
+						font-family: Pixel, MoskBlack, sans-serif;
+						filter: drop-shadow(0 0 7px #f8206c);
+					}
+						.RondGraph img {
+							margin: auto;
+							width: 6em;
+							height: 6em;
+						}
+						.RondGraph span {
+							margin: auto;
+						}
 
 				#GraphCirculaireBac {
 					display: flex;
@@ -701,10 +728,11 @@ h3 {
 
 .citation-main {
 	margin: 1.5em;
+	margin-bottom: 4.5em;
 }
 	.citation-inner {
 		border: 1px solid #f8206c;
-		padding: 2em;
+		padding: 0 2em;
 	}
 	.citation-author {
 		display: flex;
@@ -717,6 +745,9 @@ h3 {
 			stroke-width: 1px;
 			float: right;
 		}
+			.citation-svg polygon {
+				fill: #f8206c;
+			}
 		.citation-name {
 			font-size: 1.1em;
 			float: right;
@@ -781,6 +812,10 @@ footer {
 
 @media all and (max-width: 1200px)
 {
+	.sans-text {
+		font-size: 1.4em;
+	}
+
 	.title-content div {
 		left: 50%;
 		-webkit-transform: translate(-50%, 0);

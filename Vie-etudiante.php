@@ -7,7 +7,7 @@
 	<?php include 'include/header-1.php'?>
 	<div class="second-title">
 		<div class="second-title-inner">
-			<img src="images/gif/Vie-etudiante_titre.gif" />
+			<img src="images/Vie-etudiante_titre2.png" />
 		</div>
 	</div>
 </header>
@@ -83,11 +83,61 @@
 			<div class="section-content">
 				<div class="menu-content">
 					<li>Qu'est ce l'ETIQ ?</li>
+					<li>Commentaires d'étudiants</li>
 				</div>
 				<div class="container-content">
 					<p>
 						L'ETIQ est une association de l'IUT informatique qui permet d'organiser différents événements comme par exemple le .dijon//SAITEN. Elle dispose de partenariats comme l'association ADMA.
 					</p>
+					<div class="RondGraph">
+						<div>
+							<img src="images/etiq/Monnaie.png" />
+							<span>Inscription : 5€ / Une consommation gratuite</span>
+						</div>
+						<div>
+							<span>Local accessible à tous</span>
+						</div>
+						<div>
+							<img src="images/etiq/Cupcake.png" />
+							<span>Snack et boissons moins cher au local</span>
+						</div>
+						<div>
+							<img src="images/etiq/Manette.png" />
+							<span>Consoles</span>
+						</div>
+						<div>
+							<img src="images/etiq/Monnaie.png" />
+							<span>Reduction sur des magasins partenaires</span>
+						</div>
+						<div>
+							<img src="images/etiq/Sourire.png" />
+							<span>Bonne ambiance</span>
+						</div>
+						<div>
+							<img src="images/etiq/Mains.png" />
+							<span>Entraide</span>
+						</div>
+					</div>
+				</div>
+				<div class="container-content" style="display: none;">
+					<blockquote class="citation-main">
+						<p style="margin: initial; font-style: italic;">Quels avantages apportent l’association ETIQ ?</p>
+						<div class="citation-inner">
+							<p>L’association permet de connaître des gens plus rapidement, de s’intégrer. C’est un endroit de rencontre entre tous les étudiants, même les anciens, ils peuvent nous orienter. Avec une bonne ambiance, elle fait vivre la vie étudiante. De plus elle offre un soutient chaque semaine afin d’aider les étudiants en difficultés ou souhaitant simplement s’améliorer. L’association organise également des évènements.</p>
+						</div>
+						<div class="citation-author">
+							<svg width="30" height="30" viewBox="0 0 70 70" class="citation-svg">
+								<polygon points="0,0 10,0 10,10 0,10"/>
+								<polygon points="10,10 20,10 20,20 10,20"/>
+								<polygon points="20,20 30,20 30,30 20,30"/>
+								<polygon points="30,30 40,30 40,40 30,40"/>
+								<polygon points="40,40 50,40 50,50 40,50"/>
+								<polygon points="50,50 60,50 60,60 50,60"/>
+								<polygon points="60,0 70,0 70,70 60,70"/>
+							</svg>
+							<div class="citation-name">Mot d'étudiant</div>
+						</div>
+					</blockquote>
 				</div>
 			</div>
 		</div>

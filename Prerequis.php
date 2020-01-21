@@ -25,13 +25,29 @@
 					<li>Les attendus</li>
 				</div>
 				<div class="container-content" style="display: none;">
-					<h3>Ce qu'il faut savoir</h3>
 					<p>
 						Comme dans toutes études supérieures le DUT Informatique nécessite quelques prérequis, mais il faut garder en tête que lorsque vous arrivez à l'IUT, vous venez pour apprendre. Il <strong>ne faut pas être un pro en programmation</strong> pour accéder à ce DUT.
 					</p>
+					<blockquote class="citation-main">
+						<p style="margin: initial; font-style: italic;">Question : Est-il nécessaire, selon toi, d’avoir des connaissances en informatique avant son arrivée a l'IUT ?</p>
+						<div class="citation-inner">
+							<p>C’est un plus, mais ce n’est pas nécessaire. Par exemple une ancienne étudiante en droit s’en sort très bien.</p>
+						</div>
+						<div class="citation-author">
+							<svg width="30" height="30" viewBox="0 0 70 70" class="citation-svg">
+								<polygon points="0,0 10,0 10,10 0,10"/>
+								<polygon points="10,10 20,10 20,20 10,20"/>
+								<polygon points="20,20 30,20 30,30 20,30"/>
+								<polygon points="30,30 40,30 40,40 30,40"/>
+								<polygon points="40,40 50,40 50,50 40,50"/>
+								<polygon points="50,50 60,50 60,60 50,60"/>
+								<polygon points="60,0 70,0 70,70 60,70"/>
+							</svg>
+							<div class="citation-name">Mot d'étudiant</div>
+						</div>
+					</blockquote>
 				</div>
 				<div class="container-content" style="display: none;">
-					<h3>Les attendus</h3>
 					<p>
 						Bien que les étudiants viennent dans ce DUT pour apprendre, quelques connaissances sont nécessaires.
 						<ul>
@@ -41,6 +57,24 @@
 							<li>Logique, esprit d'analyse et de synthèse</li>
 						</ul>
 					</p>
+					<blockquote class="citation-main">
+						<p style="margin: initial; font-style: italic;">Selon toi, quelles sont les qualités à avoir pour ce dut ? ?</p>
+						<div class="citation-inner">
+							<p>Cette formation requière de la patience et de la logique ainsi qu’une grande rigueur surtout dans les travaux pratiques.</p>
+						</div>
+						<div class="citation-author">
+							<svg width="30" height="30" viewBox="0 0 70 70" class="citation-svg">
+								<polygon points="0,0 10,0 10,10 0,10"/>
+								<polygon points="10,10 20,10 20,20 10,20"/>
+								<polygon points="20,20 30,20 30,30 20,30"/>
+								<polygon points="30,30 40,30 40,40 30,40"/>
+								<polygon points="40,40 50,40 50,50 40,50"/>
+								<polygon points="50,50 60,50 60,60 50,60"/>
+								<polygon points="60,0 70,0 70,70 60,70"/>
+							</svg>
+							<div class="citation-name">Mot d'étudiant</div>
+						</div>
+					</blockquote>
 				</div>
 			</div>
 		</div>
@@ -55,7 +89,6 @@
 					<li>Que faut-il avoir ?</li>
 				</div>
 				<div class="container-content">
-					<h3>Que faut-il avoir ?</h3>
 					<p>
 						Pour accéder au DUT Informatique il faut être titulaire d'un baccalauréat. Les bacheliers les plus recherchés en informatique viennent de S ou STI2D, mais d'autres BAC sont évidemment acceptés. L'admission se faisant sur dossier, un bon parcours au lycée aide à être accepté plus facilement.
 					</p>
@@ -83,7 +116,6 @@
 					<li>L'inscription au DUT Informatique de Dijon</li>
 				</div>
 				<div class="container-content" style="display: none;">
-					<h3>Parcoursup</h3>
 						<p>Pour accéder au DUT Informatique vous devrez premièrement accéder à Parcoursup. Si vous êtes en établissement scolaire vos professeurs vous accompagneront dans la démarche d'inscription qui ouvre le 20 décembre.</p>
 					
 						<p>Le principe de Parcoursup est de formuler des voeux dans différents établissements qui analyseront par la suite votre dossier. Suite à votre inscription différentes démarches sont à effectuer..</p>
@@ -131,7 +163,6 @@
 						</div>
 				</div>
 				<div class="container-content" style="display: none;">
-					<h3>L'inscription au DUT Informatique de Dijon</h3>
 						<p>L'établissement examine votre dossier, si un équilibre en les différentes matières est présente, si votre comportement correspond à celui attendu,... Une fois que vous avez été accepté sur Parcoursup et que vous avez confirmé votre venu dans la formation, l'inscription débute en juillet et se déroule entièrement en ligne. Des dossiers seront mis à votre disposition. Des informations complémentaires ainsi que des papiers vous seront demandés. Pour vous inscrire vous aurez obligatoirement besoin de votre <a href='https://cvec.etudiant.gouv.fr/'>CVEC</a>, pour un coût de 90€. Les frais d'inscriptions s'élèvent ensuite à 170€.</p>
 				</div>
 			</div>

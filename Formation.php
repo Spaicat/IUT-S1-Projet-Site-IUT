@@ -23,6 +23,7 @@
 				<div class="menu-content">
 					<li>Semestre 1</li>
 					<li>Semestre 2</li>
+					<li>Commentaires</li>
 				</div>
 				<div class="container-content">
 					<h3>Semestre 1</h3>
@@ -200,6 +201,26 @@
 						</tr>
 					</table>
 				</div>
+				<div class="container-content" style="display: none;">
+					<blockquote class="citation-main">
+						<p style="margin: initial; font-style: italic;">Qu’est-ce que l’on étudie en general dans cet IUT ?</p>
+						<div class="citation-inner">
+							<p>Coté informatique on Les langages informatiques, leur structure. La structure des réseaux informatiques, ainsi que des calculs théoriques. Mais on étudie toujours des matières générales comme de l’anglais, de l’expression-communication ou encore de la gestion et du droit qui sont des matières de très importantes.</p>
+						</div>
+						<div class="citation-author">
+							<svg width="30" height="30" viewBox="0 0 70 70" class="citation-svg">
+								<polygon points="0,0 10,0 10,10 0,10"/>
+								<polygon points="10,10 20,10 20,20 10,20"/>
+								<polygon points="20,20 30,20 30,30 20,30"/>
+								<polygon points="30,30 40,30 40,40 30,40"/>
+								<polygon points="40,40 50,40 50,50 40,50"/>
+								<polygon points="50,50 60,50 60,60 50,60"/>
+								<polygon points="60,0 70,0 70,70 60,70"/>
+							</svg>
+							<div class="citation-name">Mot d'étudiant</div>
+						</div>
+					</blockquote>
+				</div>
 			</div>
 		</div>
 		<div class="content-part">
@@ -217,32 +238,6 @@
 						Au cours des deux ans du DUT Informatique différents projets en groupe doivent être réalisés.
 						Ils permettent de développer ses compétences en informatiques ainsi que d'autres compétences comme la gestion de projets et le travail en groupe.
 					</p>
-				</div>
-			</div>
-		</div>
-		<div class="content-part">
-			<div class="title-content">
-				<div>
-					<h2>Commentaires d'étudiants</h2>
-				</div>
-			</div>
-			<div class="section-content">
-				<div class="menu-content">
-					<li>Commentaire</li>
-				</div>
-				<div class="container-content">
-					<p>Qui parles le mieux du DUT que les étudiants eux mêmes : </p>
-					<blockquote class="citation-main">
-						<div class="citation-inner">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra condimentum sollicitudin. Curabitur id nunc pretium, varius nisi vitae, accumsan neque. Aliquam eget leo eget nisl lobortis elementum id id odio. Mauris euismod posuere mi, at congue nisl auctor at. Nulla suscipit porta blandit. Mauris faucibus est vitae est aliquam luctus.</p>
-						</div>
-						<div class="citation-author">
-							<svg width="30" height="25" viewBox="0 0 10 11" class="citation-svg">
-								<path d="M 0, 0   L 10, 10   v -10"/>
-							</svg>
-							<footer class="citation-name">Dolorem Quisquam</footer>
-						</div>
-					</blockquote>
 				</div>
 			</div>
 		</div>
