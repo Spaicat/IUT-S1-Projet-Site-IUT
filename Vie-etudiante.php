@@ -7,7 +7,7 @@
 	<?php include 'include/header-1.php'?>
 	<div class="second-title">
 		<div class="second-title-inner">
-			<img src="images/Vie-etudiante_titre.png" />
+			<img src="images/gif/Vie-etudiante_titre.gif" />
 		</div>
 	</div>
 </header>
@@ -34,7 +34,9 @@
 							<li>Une ligne de tramway : le T1</li>
 						</ul>
 						<br />
-						<img src="images/transport_map.png" />
+						<div class="img-inContainer">
+							<img data-enlargable src="images/gif/transport_map.gif" />
+						</div>
 					</p>
 				</div>
 				<div class="container-content" style="display: none;">
@@ -42,10 +44,14 @@
 						L'IUT dispose d'une cafeteria dans laquelle des repas du CROUS sont proposés.
 						Le campus dispose aussi d'un Restaurant Universitaire où tout les étudiants du campus peuvent manger. Il propose le même type de plats que la cafétéria avec un plus large choix.
 					</p>
+					<br />
+					<div class="img-inContainer">
+						<img data-enlargable src="images/gif/crous_map.gif" />
+					</div>
 				</div>
 				<div class="container-content" style="display: none;">
 					<p>
-						Le DUT vous donne accès à un large choix de sports de façon totalement gratuites.
+						L'IUT vous donne accès à un large choix de sports de façon totalement gratuites.
 						Ce service s'appelle le SUAPS. Vous pouvez voir sur le site du <a target="_blank" href="https://suaps.u-bourgogne.fr">SUAPS</a>, les diffèrents sports proposé.
 					</p>
 				</div>
@@ -194,6 +200,7 @@
 </main>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="include/chartist.min.js"></script>
 <script src="script/script.js"></script>
 </body>
 </html>

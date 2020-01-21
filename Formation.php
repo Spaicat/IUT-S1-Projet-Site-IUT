@@ -7,7 +7,7 @@
 	<?php include 'include/header-1.php'?>
 	<div class="second-title">
 		<div class="second-title-inner">
-			<img src="images/Formation_titre.png" />
+			<img src="images/Formation_titre2.png" />
 		</div>
 	</div>
 </header>
@@ -33,8 +33,13 @@
 							<th>Volume horaire</th>
 							<th>Coefficients</th>
 						</tr>
+						<tr class="title-UE">
+							<td colspan="2">Bases de l'informatique</td>
+							<td>256</td>
+							<td>17</td>
+						</tr>
 						<tr>
-							<td rowspan="6">Bases de l'informatique</td>
+							<td rowspan="6"></td>
 							<td>Introduction aux systèmes informatiques</td>
 							<td>54</td>
 							<td>3.5</td>
@@ -64,8 +69,13 @@
 							<td>0 (Travail personnel)</td>
 							<td>1.5</td>
 						</tr>
+						<tr class="title-UE">
+							<td colspan="2">Bases de culture scientifique sociale et humaine</td>
+							<td>208</td>
+							<td>13</td>
+						</tr>
 						<tr>
-							<td rowspan="6">Bases de culture scientifique sociale et humaine</td>
+							<td rowspan="6"></td>
 							<td>Mathématiques discrètes</td>
 							<td>42</td>
 							<td>2.5</td>
@@ -106,8 +116,13 @@
 							<th>Volume horaire</th>
 							<th>Coefficients</th>
 						</tr>
+						<tr class="title-UE">
+							<td colspan="2">Approfondissements en informatique</td>
+							<td>239</td>
+							<td>16</td>
+						</tr>
 						<tr>
-							<td rowspan="7">Approfondissements en informatique</td>
+							<td rowspan="7"></td>
 							<td>Architecture et programmation des mécanismes de base d'un système informatique</td>
 							<td>28</td>
 							<td>1.5</td>
@@ -142,8 +157,13 @@
 							<td>0 (Travail personnel)</td>
 							<td>2</td>
 						</tr>
+						<tr class="title-UE">
+							<td colspan="2">Approfondissements en culture, scientifique, sociale et humaine</td>
+							<td>224</td>
+							<td>24</td>
+						</tr>
 						<tr>
-							<td rowspan="7">Approfondissements en culture, scientifique, sociale et humaine</td>
+							<td rowspan="7"></td>
 							<td>Graphes et langages</td>
 							<td>44</td>
 							<td>2.5</td>
@@ -229,6 +249,7 @@
 </main>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="include/chartist.min.js"></script>
 <script src="script/script.js"></script>
 </body>
 </html>

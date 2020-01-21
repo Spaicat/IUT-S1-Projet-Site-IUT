@@ -5,6 +5,8 @@
 				<img src="images/logoIUT.png" />
 			</a>
 		</div>
+		<label for="show-menu" class="show-menu">Menu</label>
+		<input type="checkbox" id="show-menu" role="button">
 		<div class="menu-main">
 			<ul class="mid-menu">
 				<li>

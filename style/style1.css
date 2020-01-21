@@ -173,7 +173,7 @@ p {
 }
 strong {
 	font-weight: bolder;
-	color: #d27a99;
+	color: #e63472;
 }
 a {
 	color: #ff005a;
@@ -319,7 +319,7 @@ h3 {
 									-8px 0 0 8px white
 							}
 .image-header {
-	background-color: #151515;
+	background: #151515 url(../images/patternBackground.png) repeat 0 0;
 	text-align: center;
 }
 	.image-header-main {
@@ -483,7 +483,8 @@ h3 {
 	width: 100%;
 	height: 25em;
 	margin-top: 7em;
-	background-color: #101010;
+	background-color: #000;
+	background-image: url(https://www.transparenttextures.com/patterns/3px-tile.png);
 	border: 1px solid #bb0042;
 	border-width: 1px 0;
 }
@@ -494,7 +495,7 @@ h3 {
 	}
 		.second-title-inner img {
 			margin: auto;
-			height: 20em;
+			width: 55em;
 			image-rendering: pixelated;
 		}
 
@@ -520,15 +521,14 @@ h3 {
 			}
 				.title-content div {
 					position: absolute;
-					left: 10%;
-					width: 35%;
+					left: 15%;
 				}
 					.title-content h2 {
 						font-size: 25pt;
 						width: fit-content;
 						margin: auto;
 						background-color: #191919;
-						padding: 0 3%;
+						padding: 0 20px;
 					}
 
 		.section-content {
@@ -579,15 +579,65 @@ h3 {
 					margin-bottom: 20px;
 				}
 
+				.img-inContainer {
+					width: 100%;
+				}
+					.img-inContainer img {
+						display: flex;
+						cursor: zoom-in;
+						margin: auto;
+					}
+
+				#GraphCirculaireBac {
+					display: flex;
+				}
+					#GraphCirculaireBac div {
+						display: flex;
+						flex-direction: column;
+						padding: 3em 0;
+					}
+						#GraphCirculaireBac span {
+							margin: auto 0 auto auto;
+							border: 2px solid white;
+							padding: 0.5em;
+							font-size: 1.5em;
+							font-family: Pixel, MoskBlack, sans-serif;
+						}
+					#GraphCirculaireBac img {
+						image-rendering: pixelated;
+						height: 25em;
+					}
+
 			.content-part table, .content-part td, .content-part th {
 				background: #202e38;
+				font-size: 1.2em;
+				font-family: Pixel, MoskBlack, sans-serif;
 			}
 			.content-part table {
 				width: 100%;
-				background-image: linear-gradient(to bottom, red 0%, orange 100%);
+				/*background-image: linear-gradient(to bottom, red 0%, orange 100%)*/;
+				background-color: #f8206c;
 				background-origin: border-box;
-				border-spacing: 5px;
+				border-spacing: 4px;
 			}
+				.content-part td, .content-part th {
+					padding: 5px;
+				}
+				.content-part th {
+					background-color: #f8206c;
+					color: black;
+				}
+				.title-UE td {
+					background-color: #46212e;
+					font-weight: bold;
+				}
+
+			#EtudeSuiteTable {
+				text-align: center;
+			}
+				#EtudeSuiteTable th, #EtudeSuiteTable td {
+					width: 10%;
+				}
 
 			.card-menu {
 				display: flex;
@@ -625,6 +675,7 @@ h3 {
 					height: 4em;
 					text-align: center;
 					background-color: #151515;
+					filter: drop-shadow(0 0 7px #f8206c);
 					box-shadow: 
 						16px 0 #151515,
 						-16px 0 #151515,
@@ -654,7 +705,7 @@ h3 {
 	margin: 1.5em;
 }
 	.citation-inner {
-		border: 1px solid #da4343;
+		border: 1px solid #f8206c;
 		padding: 2em;
 	}
 	.citation-author {
@@ -664,7 +715,7 @@ h3 {
 	}
 		.citation-svg {
 			fill: none;
-			stroke: #da4343;
+			stroke: #f8206c;
 			stroke-width: 1px;
 			float: right;
 		}
@@ -674,4 +725,105 @@ h3 {
 			margin-left: 2em;
 		}
 
+.section-bar {
+	padding: 20px;
+}
+	.section-inner-bar {
+		display: inline-block;
+		margin: 5px 5px;
+		padding: 10px;
+		background-color: #300011;
+		border: 1px solid white;
+	}
+		.load-bar {
+			height: 12px;
+			background: #555;
+			width: 100%;
+		}
+			.load-bar span {
+				display: block;
+				height: 100%;
+				background-color: #f8206c;
+				overflow: hidden;
+				width: 100%;
+				animation-name: glissement-load-bar;
+				animation-duration: 3.5s;
+			}
+	.section-inner-bar p {
+		display: flex;
+		float: left;
+		margin: 5px 0 10px;
+	}
+
 /*---------------------------|Footer|---------------------------*/
+
+/*---------------------------|Responsive|---------------------------*/
+.show-menu {
+	font-family: Roboto-Light,Arial,sans-serif;
+	text-decoration: none;
+	color: #fff;
+	background: #444;
+	text-align: center;
+	padding: 10px 0;
+	display: none;
+}
+#show-menu {
+	display: none;
+}
+
+@media all and (max-width: 1200px)
+{
+	.section-content {
+		flex-direction: column;
+	}
+		.menu-content {
+			width: 100%;
+			margin-bottom: 2em;
+		}
+		.container-content {
+			width: calc(100% - 2em);
+		}
+			.menu-content li {
+				width: 100%;
+			}
+
+	.header-menu {
+		width: 100%;
+	}
+		.menu-global-inner {
+			flex-direction: column;
+			width: 100%;
+		}
+			.logo-main {
+				margin: auto;
+				background-image: none;
+				background-color: #191919;
+				width: 100%;
+				height: 9em;
+			}
+				.logo-main img {
+					height: 100%;
+				}
+			.show-menu {
+				display: block;
+			}
+			#show-menu:checked + .menu-main {
+				display: block;
+			}
+			.menu-main {
+				display: none;
+			}
+				.mid-menu {
+					flex-direction: column;
+				}
+					.mid-menu li {
+						margin: 1em auto;
+						width: calc(100% - 2em);
+					}
+						.mid-menu a {
+							width: 100%;
+						}
+							.mid-menu span {
+								width: 100%;
+							}
+}

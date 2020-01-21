@@ -7,7 +7,7 @@
 	<?php include 'include/header-1.php'?>
 	<div class="second-title">
 		<div class="second-title-inner">
-			<img src="images/Prerequis_titre.png" />
+			<img src="images/Prerequis_titre2.png" />
 		</div>
 	</div>
 </header>
@@ -59,6 +59,15 @@
 					<p>
 						Pour accéder au DUT Informatique il faut être titulaire d'un baccalauréat. Les bacheliers les plus recherchés en informatique viennent de S ou STI2D, mais d'autres BAC sont évidemment acceptés. L'admission se faisant sur dossier, un bon parcours au lycée aide à être accepté plus facilement.
 					</p>
+					<div id="GraphCirculaireBac">
+						<div>
+							<span>Autres <strong>2%</strong></span>
+							<span>Bac professionnel <strong>3%</strong></span>
+							<span>Bac technologique <strong>30%</strong></span>
+							<span>Bac général <strong>65%</strong></span>
+						</div>
+						<img src="images/GraphCirculaireBac.png" />
+					</div>
 				</div>
 			</div>
 		</div>
@@ -130,6 +139,7 @@
 </main>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="include/chartist.min.js"></script>
 <script src="script/script.js"></script>
 </body>
 </html>
