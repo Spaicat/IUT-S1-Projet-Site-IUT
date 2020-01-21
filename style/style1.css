@@ -551,11 +551,9 @@ h3 {
 				}
 				.menu-content li:hover {
 					background-color: #f8206c;
-					color: black;
 				}
 				.currentBtnBox {
 					background-color: #f8206c;
-					color: black;
 				}
 			.container-content {
 				width: 70%;
@@ -672,7 +670,7 @@ h3 {
 					display: flex;
 					margin: auto;
 					width: 13em;
-					height: 4em;
+					min-height: 4em;
 					text-align: center;
 					background-color: #151515;
 					filter: drop-shadow(0 0 7px #f8206c);
@@ -757,6 +755,16 @@ h3 {
 
 /*---------------------------|Footer|---------------------------*/
 
+footer {
+	width: 100%;
+	height: 4em;
+	display: flex;
+	background-color: black;
+}
+	footer span {
+		margin: auto;
+	}
+
 /*---------------------------|Responsive|---------------------------*/
 .show-menu {
 	font-family: Roboto-Light,Arial,sans-serif;
@@ -804,9 +812,17 @@ h3 {
 			.menu-content li {
 				margin: 0.5em auto;
 			}
+			.card-menu  {
+				margin: 4em auto;
+				flex-direction: column;
+			}
+				.card-content {
+					margin: 2em auto;
+				}
 
 	.header-menu {
 		width: 100%;
+		z-index: 999;
 	}
 		.menu-global-inner {
 			flex-direction: column;

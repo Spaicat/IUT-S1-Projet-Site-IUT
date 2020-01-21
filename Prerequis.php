@@ -52,7 +52,7 @@
 			</div>
 			<div class="section-content">
 				<div class="menu-content">
-					<li style="background-color: #f8206c; color: black;">Que faut-il avoir ?</li>
+					<li>Que faut-il avoir ?</li>
 				</div>
 				<div class="container-content">
 					<h3>Que faut-il avoir ?</h3>
@@ -137,6 +137,9 @@
 			</div>
 		</div>
 </main>
+<footer>
+	<?php include 'include/footer-1.php'?>
+</footer>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script src="include/chartist.min.js"></script>

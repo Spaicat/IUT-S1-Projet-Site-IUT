@@ -247,6 +247,9 @@
 			</div>
 		</div>
 </main>
+<footer>
+	<?php include 'include/footer-1.php'?>
+</footer>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script src="include/chartist.min.js"></script>
