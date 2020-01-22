@@ -232,12 +232,19 @@
 			<div class="section-content">
 				<div class="menu-content">
 					<li>Qu'est ce que c'est ?</li>
+					<li>Un exemple</li>
 				</div>
 				<div class="container-content">
 					<p>
 						Au cours des deux ans du DUT Informatique différents projets en groupe doivent être réalisés.
 						Ils permettent de développer ses compétences en informatiques ainsi que d'autres compétences comme la gestion de projets et le travail en groupe.
 					</p>
+				</div>
+				<div class="container-content" style="display: none;">
+					<p>
+						Voici le resultat de notre projet personnel d'algorithmique de premier semestre pour vous donner une idée :
+					</p>
+					<div id="boutonDownload"><a href="include/ProjetProgramme.exe">Télécharger</a></div>
 				</div>
 			</div>
 		</div>
